@@ -1,2 +1,2 @@
 # basex-rdf
-RDF data in BaseX
+Parsing RDF data in BaseX
