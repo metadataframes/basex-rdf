@@ -48,6 +48,11 @@ The XQuery library module takes the following namespace:
 graphs:parse(xs:string)
   Parses RDF data as a string and returns an XML parse tree.
 
+basex-rdf:transform(xs:string)
+  Accepts a string with RDF data and calls graphs:parse() to return an XML parse tree. Passes the parsed data to the process.xsl stylesheet.
+
+
+
 ```
 
 ## Getting started
