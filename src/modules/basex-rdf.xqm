@@ -1,7 +1,7 @@
 xquery version "3.1";
 
-module namespace basex-rdf = "https://metadatafram.es/basex/modules/rdf/triples/";
-import module namespace triples = "http://basex.org/modules/rdf/Triples";
+module namespace basex-rdf = "https://metadatafram.es/basex/modules/rdf/graphs/";
+import module namespace graphs = "http://basex.org/modules/rdf/Graphs";
 
 declare variable $basex-rdf:XSL := doc("process.xsl");
 declare variable $basex-rdf:XSL2 := doc("postprocess.xsl");
@@ -13,7 +13,7 @@ declare function basex-rdf:transform(
   $rdf as xs:string
 ) as document-node() {
   document {
-    let $parsed := xslt:transform(triples:parse($rdf), $basex-rdf:XSL)        
+    let $parsed := xslt:transform(graphs:parse($rdf), $basex-rdf:XSL)        
     return (
       copy $p := $parsed
         modify (

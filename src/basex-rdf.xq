@@ -1,9 +1,9 @@
 xquery version "3.1";
 
 import module namespace 
-  trip = "https://metadatafram.es/basex/modules/rdf/triples/" 
-  at "process-triples.xqm";
-import module namespace triples = "http://basex.org/modules/rdf/Triples";
+  basex-rdf = "https://metadatafram.es/basex/modules/rdf/graphs/" 
+  at "modules/basex-rdf.xqm";
+import module namespace graphs = "http://basex.org/modules/rdf/Graphs";
 
 let $triples as xs:string :=
   ``[
@@ -203,9 +203,9 @@ let $options :=
   </options>
 return (
   <results>{    
-    trip:query(    
-      trip:transform($triples),
-      trip:pass-options($options)    
+    basex-rdf:query(    
+      basex-rdf:transform($triples),
+      basex-rdf:pass-options($options)    
     )
   }</results>
 )

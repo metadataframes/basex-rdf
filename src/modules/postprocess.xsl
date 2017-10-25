@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet
-  exclude-result-prefixes="xs trip"
+  exclude-result-prefixes="xs basex-rdf"
   version="3.0"
-  xmlns:basex-rdf="https://metadatafram.es/basex/modules/rdf/triples/"
+  xmlns:basex-rdf="https://metadatafram.es/basex/modules/rdf/graphs/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
