@@ -2,7 +2,7 @@
 <xsl:stylesheet
   exclude-result-prefixes="xs trip"
   version="3.0"
-  xmlns:trip="https://metadatafram.es/basex/modules/rdf/triples/"
+  xmlns:basex-rdf="https://metadatafram.es/basex/modules/rdf/triples/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 

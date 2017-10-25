@@ -2,7 +2,7 @@
 <xsl:stylesheet
   exclude-result-prefixes="xs trip"
   version="3.0"
-  xmlns:trip="https://metadatafram.es/basex/modules/rdf/triples/"
+  xmlns:basex-rdf="https://metadatafram.es/basex/modules/rdf/triples/"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -83,10 +83,10 @@
           test="normalize-space($verb[. ne 'true']) and normalize-space($object[. ne 'true']) and $subject eq 'true'">
           <xsl:variable
             name="verb"
-            select="trip:resolve-prefix($verb, *)"/>
+            select="basex-rdf:resolve-prefix($verb, *)"/>
           <xsl:variable
             name="object"
-            select="trip:resolve-prefix($object, *)"/>
+            select="basex-rdf:resolve-prefix($object, *)"/>
           <xsl:sequence
             select="
               for $s in (key('subject-verb-key', $verb) intersect key('subject-object-key', $object))
@@ -98,10 +98,10 @@
           test="normalize-space($subject[. ne 'true']) and normalize-space($verb[. ne 'true']) and $object eq 'true'">
           <xsl:variable
             name="subject"
-            select="trip:resolve-prefix($subject, *)"/>
+            select="basex-rdf:resolve-prefix($subject, *)"/>
           <xsl:variable
             name="verb"
-            select="trip:resolve-prefix($verb, *)"/>
+            select="basex-rdf:resolve-prefix($verb, *)"/>
           <xsl:sequence
             select="
               for $o in (key('object-subject-key', $subject) intersect key('object-verb-key', $verb))
@@ -113,10 +113,10 @@
           test="normalize-space($subject[. ne 'true']) and normalize-space($object[. ne 'true']) and $verb eq 'true'">
           <xsl:variable
             name="subject"
-            select="trip:resolve-prefix($subject, *)"/>
+            select="basex-rdf:resolve-prefix($subject, *)"/>
           <xsl:variable
             name="object"
-            select="trip:resolve-prefix($object, *)"/>
+            select="basex-rdf:resolve-prefix($object, *)"/>
           <xsl:sequence
             select="
               for $v in (key('verb-subject-key', $subject) intersect key('verb-object-key', $object))
@@ -128,10 +128,10 @@
           test="normalize-space($verb[. ne 'true']) and $subject eq 'true' and $object eq 'true'">
           <xsl:variable
             name="verb"
-            select="trip:resolve-prefix($verb, *)"/>
+            select="basex-rdf:resolve-prefix($verb, *)"/>
           <xsl:sequence
             select="
-              trip:subject-objects(
+              basex-rdf:subject-objects(
               for $s-o in (key('subject-verb-key', $verb) union key('object-verb-key', $verb))
               return
                 $s-o
@@ -142,10 +142,10 @@
           test="normalize-space($object[. ne 'true']) and $subject eq 'true' and $verb eq 'true'">
           <xsl:variable
             name="object"
-            select="trip:resolve-prefix($object, *)"/>
+            select="basex-rdf:resolve-prefix($object, *)"/>
           <xsl:sequence
             select="
-              trip:subject-verbs(
+              basex-rdf:subject-verbs(
               for $s-v in (key('subject-object-key', $object) union key('verb-object-key', $object))
               return
                 $s-v
@@ -156,10 +156,10 @@
           test="normalize-space($subject[. ne 'true']) and $verb eq 'true' and $object eq 'true'">
           <xsl:variable
             name="subject"
-            select="trip:resolve-prefix($subject, *)"/>
+            select="basex-rdf:resolve-prefix($subject, *)"/>
           <xsl:sequence
             select="
-              trip:predicate-objects(
+              basex-rdf:predicate-objects(
               for $v-o in (key('verb-subject-key', $subject) union key('object-subject-key', $subject))
               return
                 $v-o
@@ -170,7 +170,7 @@
           test="$bnode eq 'true' and normalize-space($type)">
           <xsl:variable
             name="type"
-            select="trip:resolve-prefix($type, *)"/>
+            select="basex-rdf:resolve-prefix($type, *)"/>
           <xsl:sequence
             select="
               for $bn in key('bnode-type-key', $type)
@@ -202,7 +202,7 @@
 
   <xsl:function
     as="xs:anyURI"
-    name="trip:resolve-prefix">
+    name="basex-rdf:resolve-prefix">
     <xsl:param
       as="xs:anyURI"
       name="ref"/>
@@ -227,7 +227,7 @@
 
   <xsl:function
     as="element()"
-    name="trip:subject-verbs">
+    name="basex-rdf:subject-verbs">
     <xsl:param
       as="item()*"
       name="seq"/>
@@ -239,7 +239,7 @@
 
   <xsl:function
     as="element()"
-    name="trip:subject-objects">
+    name="basex-rdf:subject-objects">
     <xsl:param
       as="item()*"
       name="seq"/>
@@ -251,7 +251,7 @@
 
   <xsl:function
     as="element()"
-    name="trip:predicate-objects">
+    name="basex-rdf:predicate-objects">
     <xsl:param
       as="item()*"
       name="seq"/>

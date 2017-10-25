@@ -1,19 +1,19 @@
 xquery version "3.1";
 
-module namespace trip = "https://metadatafram.es/basex/modules/rdf/triples/";
+module namespace basex-rdf = "https://metadatafram.es/basex/modules/rdf/triples/";
 import module namespace triples = "http://basex.org/modules/rdf/Triples";
 
-declare variable $trip:XSL := doc("process.xsl");
-declare variable $trip:XSL2 := doc("postprocess.xsl");
+declare variable $basex-rdf:XSL := doc("process.xsl");
+declare variable $basex-rdf:XSL2 := doc("postprocess.xsl");
 
 (:~ 
  :
  :)
-declare function trip:transform(
+declare function basex-rdf:transform(
   $rdf as xs:string
 ) as document-node() {
   document {
-    let $parsed := xslt:transform(triples:parse($rdf), $trip:XSL)        
+    let $parsed := xslt:transform(triples:parse($rdf), $basex-rdf:XSL)        
     return (
       copy $p := $parsed
         modify (
@@ -24,10 +24,10 @@ declare function trip:transform(
               if (normalize-space($node))
               then
                 replace value of node $node/@xid
-                  with trip:xid(string-join($node))
+                  with basex-rdf:xid(string-join($node))
               else
                 replace value of node $node/@xid
-                  with trip:xid(xs:string(current-dateTime()))
+                  with basex-rdf:xid(xs:string(current-dateTime()))
             )
             else
               ()
@@ -41,7 +41,7 @@ declare function trip:transform(
 (:~ 
  :
  :)
-declare function trip:pass-options(  
+declare function basex-rdf:pass-options(  
   $passed-options as element(options)
 ) as element(options) {  
   let $options-to-query := (
@@ -76,14 +76,14 @@ declare function trip:pass-options(
 (:~ 
  :
  :)
-declare function trip:query(    
+declare function basex-rdf:query(    
   $transform as document-node(),  
   $options as element(options)
 ) as element()+ {      
   let $query := 
     xslt:transform(
       $transform, 
-      $trip:XSL2,
+      $basex-rdf:XSL2,
       map {
         "subject": $options/subject,
         "verb": $options/verb,
@@ -126,7 +126,7 @@ declare function trip:query(
    )
 };
 
-declare %private function trip:xid(
+declare %private function basex-rdf:xid(
   $value as xs:string*
 ) as xs:string {
   concat('x', 
