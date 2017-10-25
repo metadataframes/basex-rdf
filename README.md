@@ -7,6 +7,8 @@
 - [Packaging](#packaging)
 - [Installation](#installation)   
 - [Usage](#usage)
+  - [Namespaces](#namespaces)
+  - [Functions](#functions)    
 - [Getting started](#getting-started)
 - [TODO](#todo)
 - [License](#license)
@@ -30,7 +32,18 @@ See the [BaseX wiki](http://docs.basex.org/wiki/Main_Page) for detailed document
 * Before executing functions from the module, ensure that the Saxon-HE 9.8.x JAR file is saved in the `lib` subdirectory of the BaseX installation directory.
 
 ## Usage
-Currently, `basex-rdf` includes an XQuery library module, `basex-rdf.xqm` and two XSLT stylesheets, `process.xsl` and `postprocess.xsl`.
+Currently, `basex-rdf` includes an XQuery library module, `basex-rdf.xqm`, and two XSLT stylesheets, `process.xsl` and `postprocess.xsl`. The first stylesheet (`process.xsl`) normalizes the raw XML parse tree, and the second exposes some simple abstractions for querying the RDF data. The XQuery library module acts as a controller for calling the stylesheets.
+
+### Namespaces
+```
+The parser component of the combined Java/XQuery module is bound to the namespace **http://basex.org/modules/rdf/Graphs** (here bound to the prefix "graphs").
+The XQuery library module takes the namespace **https://metadatafram.es/basex/modules/rdf/graphs/** (here bound to the prefix "basex-rdf").
+```
+
+### Functions
+```
+graphs
+```
 
 ## Getting started
 
