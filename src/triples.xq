@@ -2,7 +2,7 @@ xquery version "3.1";
 
 import module namespace 
   trip = "https://metadatafram.es/basex/modules/rdf/triples/" 
-  at "modules/process-triples.xqm";
+  at "process-triples.xqm";
 import module namespace triples = "http://basex.org/modules/rdf/Triples";
 
 let $triples as xs:string :=
@@ -198,13 +198,18 @@ let $triples as xs:string :=
 let $options :=
   <options>
     <subject></subject>
-    <verb>rdf:type</verb>
-    <object></object>
+    <verb></verb>
+    <object>http://id.loc.gov/vocabulary/countries/gw</object>
   </options>
-return  
-  trip:query(    
-    trip:transform($triples),
-    trip:pass-options($options)    
-  )
+let $t := fetch:text("https://metadatafram.es/basex/modules/rdf/test/test.ttl")
+return (
+  <results>{    
+    trip:query(    
+      trip:transform($triples),
+      trip:pass-options($options)    
+    )
+  }</results>,
+  trip:transform($t)
+)
   
     
