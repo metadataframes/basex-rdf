@@ -65,8 +65,9 @@ basex-rdf:query(document-node(), element(options))
   Calls the postprocess.xsl stylesheet to query the data.  
 ```
 
-
 ## Getting started
+The `basex-rdf:query` function implements a set of simple abstractions for navigating RDF graphs,
+loosely based on the navigation functions implements by the RDFLib Python package.
 
 ## TODO
 
