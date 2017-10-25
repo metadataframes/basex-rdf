@@ -23,7 +23,7 @@ This is an extension module for parsing RDF data with the [BaseX XQuery processo
 
 ## Packaging
 * By default, the BaseX 9.0 [combined packaging feature](http://docs.basex.org/wiki/Repository#Combined) is used. This feature (currently in beta) optimizes the packaging of Java extension code in BaseX.
-* Alternative packages, such as the EXPath packaging model, may be added in the future (although they would still be BaseX specific).
+* Alternative packages, such as the EXPath packaging model, may be added in the future (although the package would still be dependent on BaseX).
 
 ## Installation
 See the [BaseX wiki](http://docs.basex.org/wiki/Main_Page) for detailed documentation about installing and using BaseX.
