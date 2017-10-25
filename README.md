@@ -46,7 +46,7 @@ The XQuery library module takes the following namespace:
 ### Functions
 ```
 graphs:parse(xs:string)
-  Parses RDF data as a string and returns a sequence of one or more items.
+  Parses RDF data as a string and returns an XML parse tree.
 
 ```
 
