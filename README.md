@@ -81,7 +81,7 @@ The options element can be used to declare basic graph query patterns. For examp
 </options>
 ```
 
-can be used to list all subject-object pairs linked by the `rdf:type` predicate. Note the use of the qualified name in the predicate; prefixes must match the ones declare in the RDF source data. Alternatively, an unqualified IRI (e.g., `http://www.w3.org/1999/02/22-rdf-syntax-ns#`) may also be used.
+can be used to list all subject-object pairs linked by the `rdf:type` predicate. Note the use of the qualified name in the predicate; prefixes must match the ones declare in the RDF source data. Alternatively, an unqualified IRI (e.g., `http://www.w3.org/1999/02/22-rdf-syntax-ns#`) may be used instead.
 
 ## TODO
 * Incorporate test suite using [XSpec](https://github.com/xspec/xspec/)
