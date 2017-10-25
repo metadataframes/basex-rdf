@@ -11,7 +11,7 @@ declare variable $trip:XSL2 := doc("postprocess.xsl");
  :)
 declare function trip:transform(
   $rdf as xs:string
-) as document-node()+ {
+) as document-node() {
   document {
     let $parsed := xslt:transform(triples:parse($rdf), $trip:XSL)        
     return (
@@ -132,10 +132,7 @@ declare %private function trip:xid(
   concat('x', 
     string-join(
       random-number-generator($value)?permute(  
-        tokenize(
-          "p a t h h t m m s d s p q y q m f 2 3 4 5 6 7 8", 
-          "\s"
-        )
+        tokenize("p a t h h t m m s d s p q y q m f 2 3 4 5 6 7 8", "\s")
       )
     )
   )
