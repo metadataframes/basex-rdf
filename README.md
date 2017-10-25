@@ -50,8 +50,21 @@ graphs:parse(xs:string)
 ```
 ```
 basex-rdf:transform(xs:string)
-  Accepts a string with RDF data and calls graphs:parse() to return an XML parse tree. Passes the parsed data to the process.xsl stylesheet.
+  Accepts a string of RDF data and calls graphs:parse() to return an XML parse tree. 
+  Passes the parsed data to the process.xsl stylesheet.
+  Returns a normalized XML document of RDF statements.  
 ```
+```
+basex-rdf:pass-options(element(options))
+  Helper function. Accepts a set of options in an <options> element.
+  Passes the options to the basex-rdf:query() function.  
+```
+```
+basex-rdf:query(document-node(), element(options))
+  Accepts the normalized RDF document and query options.
+  Calls the postprocess.xsl stylesheet to query the data.  
+```
+
 
 ## Getting started
 
