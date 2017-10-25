@@ -19,7 +19,7 @@ This is an extension module for parsing RDF data with the [BaseX XQuery processo
 
 ## Dependencies
 * BaseX 9.0 (currently in beta; see [latest development snapshot](http://files.basex.org/releases/latest/))
-* Saxon-HE 9.8.x (availabe for download from [SourceForge](https://sourceforge.net/projects/saxon/files/latest/download?source=files))
+* Saxon-HE 9.8.x (download from [SourceForge](https://sourceforge.net/projects/saxon/files/latest/download?source=files))
 
 ## Packaging
 * By default, the BaseX 9.0 [combined packaging feature](http://docs.basex.org/wiki/Repository#Combined) is used. This feature (currently in beta) optimizes the packaging of Java extension code in BaseX.
