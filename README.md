@@ -1,5 +1,5 @@
 # basex-rdf
-## RDF parsing for XQuery in BaseX
+## RDF parsing for XQuery (in BaseX)
 
 ## Table of Contents
 - [Status](#status)
