@@ -39,13 +39,15 @@ The parser component of the combined Java/XQuery module is bound to the followin
 
 `http://basex.org/modules/rdf/Graphs` (here bound to the prefix "graphs")
 
-The XQuery library module takes the follwing namespace:
+The XQuery library module takes the following namespace:
 
 `https://metadatafram.es/basex/modules/rdf/graphs/` (here bound to the prefix "basex-rdf")
 
 ### Functions
 ```
-graphs
+graphs:parse(xs:string)
+  Parses RDF data as a string and returns a sequence of one or more items.
+
 ```
 
 ## Getting started
