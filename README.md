@@ -2,7 +2,7 @@
 ## RDF parsing for XQuery (in BaseX)
 
 ## Table of Contents
-- [Status](#overview-and-status)
+- [Overview and status](#overview-and-status)
 - [Dependencies](#dependencies)
 - [Packaging](#packaging)
 - [Installation](#installation)   
