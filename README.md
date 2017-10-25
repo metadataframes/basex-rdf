@@ -67,7 +67,9 @@ basex-rdf:query(document-node(), element(options))
 
 ## Getting started
 The `basex-rdf:query` function implements a set of simple abstractions for navigating RDF graphs,
-loosely based on the navigation functions implements by the RDFLib Python package.
+loosely based on the navigation functions implemented by the [RDFLib Python package](https://rdflib.readthedocs.io/en/stable/intro_to_graphs.html).
+
+The [`basex-rdf.xq`](https://github.com/metadataframes/basex-rdf/blob/master/src/basex-rdf.xq) main module provides a simple example of querying parsed RDF data in BaseX.
 
 ## TODO
 
