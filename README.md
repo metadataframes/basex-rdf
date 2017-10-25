@@ -17,7 +17,7 @@ This is an extension module for parsing RDF data with the [BaseX XQuery processo
 
 ## Dependencies
 * BaseX 9.0 (currently in beta; see [latest development snapshot](http://files.basex.org/releases/latest/))
-* Saxon-HE 9.8 ([SourceForge](https://sourceforge.net/projects/saxon/files/latest/download?source=files)
+* Saxon-HE 9.8 (availabe for download from [SourceForge](https://sourceforge.net/projects/saxon/files/latest/download?source=files))
 
 ## Packaging
 * By default, the BaseX 9.0 [combined packaging feature](http://docs.basex.org/wiki/Repository#Combined) is used. This feature optimizes the packaging of Java extension code in BaseX.
@@ -26,7 +26,7 @@ This is an extension module for parsing RDF data with the [BaseX XQuery processo
 ## Installation
 See the [BaseX wiki](http://docs.basex.org/wiki/Main_Page) for detailed documentation about installing and using BaseX.
 
-* Once BaseX has been downloaded, the easiest way to add the basex-rdf module is by launching the BaseX GUI. From the `Options` menu, select `Packages` and install the `Triples.jar` file from the `repo` directory of this repository.
+* Once BaseX has been downloaded, the easiest way to add the `basex-rdf` module is by launching the BaseX GUI. From the `Options` menu, select `Packages` and install the `Triples.jar` file from the [repo](https://github.com/metadataframes/basex-rdf/tree/master/src/repo) directory of this repository.
 
 ## Usage
 
