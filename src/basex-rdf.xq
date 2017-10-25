@@ -201,15 +201,13 @@ let $options :=
     <verb></verb>
     <object>http://id.loc.gov/vocabulary/countries/gw</object>
   </options>
-let $t := fetch:text("https://metadatafram.es/basex/modules/rdf/test/test.ttl")
 return (
   <results>{    
     trip:query(    
       trip:transform($triples),
       trip:pass-options($options)    
     )
-  }</results>,
-  trip:transform($t)
+  }</results>
 )
   
     
