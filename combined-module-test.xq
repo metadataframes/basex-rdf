@@ -1,11 +1,8 @@
 xquery version "3.1";
 
-import module namespace 
-  basex-rdf = "https://metadatafram.es/basex/modules/rdf/graphs/" 
-  at "modules/basex-rdf.xqm";
-import module namespace graphs = "http://basex.org/modules/rdf/Graphs";
+import module namespace trip = "http://basex.org/modules/rdf/Triples";
 
-let $triples as xs:string :=
+let $triples :=
   ``[
     @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
     @prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
@@ -195,19 +192,15 @@ let $triples as xs:string :=
         bf:translationOf <https://metadatafram.es/3391099#Work130-10> ;
         bf:version "Vulgate" .
   ]``
-let $options :=
-  <options>
-    <subject></subject>
-    <verb>bf:subject</verb>
-    <object></object>
-  </options>
-return (
-  <results>{    
-    basex-rdf:query(    
-      basex-rdf:transform($triples),
-      basex-rdf:pass-options($options)    
-    )
-  }</results>
+return (    
+  trip:parse($triples)
 )
   
-    
+  
+  
+  
+  
+  
+  
+  
+  
