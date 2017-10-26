@@ -20,9 +20,9 @@
   <xsl:template
     match="/">
     <triples
-      xid="">
+      >
       <prefixes
-        xid="">
+        >
         <xsl:apply-templates
           mode="directive"
           select="trigDoc/directive"/>
@@ -36,8 +36,7 @@
     match="directive"
     mode="directive">
     <iriref
-      prefix="{substring-before(prefixID/PNAME_NS, ':')}"
-      xid="">
+      prefix="{substring-before(prefixID/PNAME_NS, ':')}">
       <xsl:apply-templates
         mode="directive"/>
     </iriref>
@@ -45,26 +44,22 @@
 
   <xsl:template
     match="triplesOrGraph">
-    <statement
-      xid="">
+    <statement>
       <xsl:apply-templates/>
     </statement>
   </xsl:template>
 
   <xsl:template
     match="labelOrSubject">
-    <subject
-      xid="">
+    <subject>
       <xsl:apply-templates/>
     </subject>
   </xsl:template>
 
   <xsl:template
     match="verb">
-    <predicate
-      xid="">
-      <verb
-        xid="">
+    <predicate>
+      <verb>
         <xsl:apply-templates/>
       </verb>
       <xsl:apply-templates
@@ -82,8 +77,7 @@
     <xsl:choose>
       <xsl:when
         test="literal">
-        <literal
-          xid="">
+        <literal>
           <xsl:if
             test=".//LANGTAG">
             <xsl:attribute
@@ -122,7 +116,6 @@
                       $type
                     )
                   "/>
-
               <xsl:value-of
                 select="$val"/>
             </xsl:when>
@@ -166,8 +159,7 @@
       </xsl:when>
       <xsl:when
         test="iri">
-        <object
-          xid="">
+        <object>
           <xsl:apply-templates/>
         </object>
       </xsl:when>
@@ -177,10 +169,8 @@
   <xsl:template
     match="object"
     mode="blank">
-    <object
-      xid="">
-      <subject
-        xid=""/>
+    <object>
+      <subject/>
       <xsl:apply-templates/>
     </object>
   </xsl:template>

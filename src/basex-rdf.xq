@@ -202,12 +202,13 @@ let $options :=
     <object></object>
   </options>
 return (
-  <results>{    
+  (: <results>{    
     basex-rdf:query(    
       basex-rdf:transform($triples),
       basex-rdf:pass-options($options)    
     )
-  }</results>
+  }</results> :)
+  basex-rdf:transform($triples)
 )
   
     
