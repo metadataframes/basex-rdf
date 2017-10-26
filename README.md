@@ -29,11 +29,11 @@ This is an extension module for parsing RDF data with the [BaseX XQuery processo
 ## Installation
 See the [BaseX wiki](http://docs.basex.org/wiki/Main_Page) for detailed documentation about installing and using BaseX.
 
-* Once BaseX has been downloaded, the easiest way to add the `basex-rdf` module is by launching the BaseX GUI. From the `Options` menu, select `Packages` and install the `Graphs.jar` file from the [repo](https://github.com/metadataframes/basex-rdf/tree/master/src/repo) directory of the `basex-rdf` repository.
+* Once BaseX has been downloaded, the easiest way to add the `basex-rdf` module is by launching the BaseX GUI. From the `Options` menu, select `Packages` and install the `Graphs.jar` file from the [repo](https://github.com/metadataframes/basex-rdf/tree/master/src/repo) directory of the basex-rdf repository.
 * Before executing functions from the module, ensure that the Saxon-HE 9.8.x JAR file is saved in the `lib` subdirectory of the BaseX installation directory.
 
 ## Usage
-Currently, `basex-rdf` includes an XQuery library module, `basex-rdf.xqm`, and two XSLT stylesheets, `process.xsl` and `postprocess.xsl`. The first stylesheet (`process.xsl`) normalizes the raw XML parse tree, and the second exposes some simple abstractions for querying the RDF data. The XQuery library module acts as a controller for calling the stylesheets.
+Currently, basex-rdf includes an XQuery library module, `basex-rdf.xqm`, and two XSLT stylesheets, `process.xsl` and `postprocess.xsl`. The first stylesheet (`process.xsl`) normalizes the raw XML parse tree, and the second exposes some simple abstractions for querying the RDF data. The XQuery library module acts as a controller for calling the stylesheets.
 
 ### Namespaces
 The parser component of the combined Java/XQuery module is bound to the following namespace:
