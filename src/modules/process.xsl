@@ -44,9 +44,9 @@
 
   <xsl:template
     match="triplesOrGraph">
-    <statement>
+    <statements>
       <xsl:apply-templates/>
-    </statement>
+    </statements>
   </xsl:template>
 
   <xsl:template

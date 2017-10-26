@@ -1,851 +1,851 @@
-<triples xid="x4fmstaphdt2q36mspy8hm75q">
-  <prefixes xid="x4fmstaphdt2q36mspy8hm75q">
-    <iriref prefix="bf" xid="xmpsqfmdthtqa25p468s7m3yh">http://id.loc.gov/ontologies/bibframe/</iriref>
-    <iriref prefix="bflc" xid="xytm6m83hf7sash4p2qdq5ptm">http://id.loc.gov/ontologies/bflc/</iriref>
-    <iriref prefix="madsrdf" xid="x76mdmf4sym582aths3hpptqq">http://www.loc.gov/mads/rdf/v1#</iriref>
-    <iriref prefix="rdf" xid="xm2t67pafhsy8pdtqmsq3m4h5">http://www.w3.org/1999/02/22-rdf-syntax-ns#</iriref>
-    <iriref prefix="rdfs" xid="xhtsy68tpf2m7qm45hspaqmd3">http://www.w3.org/2000/01/rdf-schema#</iriref>
-    <iriref prefix="xml" xid="xds82f7phtqy3mm6pha4tmqs5">http://www.w3.org/XML/1998/namespace</iriref>
-    <iriref prefix="xsd" xid="xfhmd86hpmtyap2sm5st3qq47">http://www.w3.org/2001/XMLSchema#</iriref>
+<triples>
+  <prefixes>
+    <iriref prefix="bf">http://id.loc.gov/ontologies/bibframe/</iriref>
+    <iriref prefix="bflc">http://id.loc.gov/ontologies/bflc/</iriref>
+    <iriref prefix="madsrdf">http://www.loc.gov/mads/rdf/v1#</iriref>
+    <iriref prefix="rdf">http://www.w3.org/1999/02/22-rdf-syntax-ns#</iriref>
+    <iriref prefix="rdfs">http://www.w3.org/2000/01/rdf-schema#</iriref>
+    <iriref prefix="xml">http://www.w3.org/XML/1998/namespace</iriref>
+    <iriref prefix="xsd">http://www.w3.org/2001/XMLSchema#</iriref>
   </prefixes>
-  <statement xid="xs83s462a7mfhphpmmdtyqtq5">
-    <subject xid="x378mqty5q6smhdmfthpp4as2">http://id.loc.gov/authorities/names/n00020514</subject>
-    <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+  <statements>
+    <subject>http://id.loc.gov/authorities/names/n00020514</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Title</object>
     </predicate>
-    <predicate xid="xytph735t2mq4mhqmfp8s6dsa">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="x4hq685qsa7yfs2tdpmmtm3hp" datatype="xs:string">Bible. Vulgate. 1454.</literal>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Bible. Vulgate. 1454.</literal>
     </predicate>
-    <predicate xid="xpsmpatqmm43qs7hfthyd6852">
-      <verb xid="xtmpmy7f26qdamq58hs3h4stp">http://id.loc.gov/ontologies/bflc/title30MarcKey</verb>
-      <literal xid="xftp7hahqst4582dmpmymqs63" datatype="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/title30MarcKey</verb>
+      <literal datatype="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</literal>
     </predicate>
-    <predicate xid="x6tqms5sq438tmd2fmah7ppyh">
-      <verb xid="xs5mm36dt7thqhy8fmapp4qs2">http://id.loc.gov/ontologies/bflc/title30MatchKey</verb>
-      <literal xid="x4hq685qsa7yfs2tdpmmtm3hp" datatype="xs:string">Bible. Vulgate. 1454.</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/title30MatchKey</verb>
+      <literal datatype="xs:string">Bible. Vulgate. 1454.</literal>
     </predicate>
-    <predicate xid="xpfd8mqqp23mhs4mshy75at6t">
-      <verb xid="xthf8qm26y5tsdspq43map7hm">http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
-      <literal xid="x4hq685qsa7yfs2tdpmmtm3hp" datatype="xs:string">Bible. Vulgate. 1454.</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
+      <literal datatype="xs:string">Bible. Vulgate. 1454.</literal>
     </predicate>
-    <predicate xid="xmtsap5y4dh26qthf38spqm7m">
-      <verb xid="x5f3s6q27mh4tppmdm8athyqs">http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
-      <literal xid="xs286pa7pdmtqtshyfqmh5m34" datatype="xs:string">Bible</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
+      <literal datatype="xs:string">Bible</literal>
     </predicate>
-  </statement>
-  <statement xid="xphtaf8q7q563y2dmt4hpssmm">
-    <subject xid="x38tps5ypt4qqdmsh6f7am2mh">http://id.loc.gov/authorities/names/n50034916</subject>
-    <predicate xid="xpphmm57a2sqf3t8d4s6tmqyh">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="x35hp2sqhmdmfstt6yam7p84q">http://id.loc.gov/ontologies/bibframe/Agent</object>
-      <object xid="x6sp7mthpt3myqs5maq824fdh">http://id.loc.gov/ontologies/bibframe/Person</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/authorities/names/n50034916</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Agent</object>
+      <object>http://id.loc.gov/ontologies/bibframe/Person</object>
     </predicate>
-    <predicate xid="xd8fmqshptm432mqayhst765p">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="xq5dsm6fap42t3hs78tpmymqh" xml:lang="en" datatype="xs:string">Gutenberg, Johann, 1397?-1468,</literal>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal xml:lang="en" datatype="xs:string">Gutenberg, Johann, 1397?-1468,</literal>
     </predicate>
-    <predicate xid="x78hq4f25stmhsmtmp3qpayd6">
-      <verb xid="xsqysm47hapfdtt3m682mph5q">http://id.loc.gov/ontologies/bflc/name00MarcKey</verb>
-      <literal xid="x4qp6ht382pqsmth7d5fyamms" datatype="xs:string">7001 $aGutenberg, Johann,$d1397?-1468,$eprinter.</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/name00MarcKey</verb>
+      <literal datatype="xs:string">7001 $aGutenberg, Johann,$d1397?-1468,$eprinter.</literal>
     </predicate>
-    <predicate xid="xm3tmysp2q5h4fahq7p8stmd6">
-      <verb xid="x2y3qq7sspt6mtmfah45hm8dp">http://id.loc.gov/ontologies/bflc/name00MatchKey</verb>
-      <literal xid="xq5dsm6fap42t3hs78tpmymqh" datatype="xs:string">Gutenberg, Johann, 1397?-1468,</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/name00MatchKey</verb>
+      <literal datatype="xs:string">Gutenberg, Johann, 1397?-1468,</literal>
     </predicate>
-  </statement>
-  <statement xid="x2p43mytspdqmtmqahhf5s786">
-    <subject xid="x3hd4mmp7m2hfqat6yp85tsqs">http://id.loc.gov/vocabulary/countries/gw</subject>
-    <predicate xid="x5m26yqmq7sfppmttd4sh3h8a">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xmt24samqy3h7dtmh8pf6qsp5">http://id.loc.gov/ontologies/bibframe/Place</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/vocabulary/countries/gw</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Place</object>
     </predicate>
-  </statement>
-  <statement xid="xsm7q32pmt5dfts4mpyahq6h8">
-    <subject xid="xq5fm6h7stsmap4dmp823hqty">http://id.loc.gov/vocabulary/issuance/mono</subject>
-    <predicate xid="x5t87dsq6tm4s3fqaphymh2mp">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xfqqhh3t67a4ms2spp8td5ymm">http://id.loc.gov/ontologies/bibframe/Issuance</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/vocabulary/issuance/mono</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Issuance</object>
     </predicate>
-  </statement>
-  <statement xid="xqs76mqpd3tm485fhamtyhp2s">
-    <subject xid="xdyths37pp6f2m4hmq5tmaqs8">http://id.loc.gov/vocabulary/languages/lat</subject>
-    <predicate xid="xmmmp64tpt8hsqyd72fa5hs3q">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xt75f32m4pssq8m6dhmqhtapy">http://id.loc.gov/ontologies/bibframe/Language</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/vocabulary/languages/lat</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Language</object>
     </predicate>
-  </statement>
-  <statement xid="x473tp8sthmqdm6sfh5aqpym2">
-    <subject xid="xsqp8a6smpt723fmhqy4d5mth">http://id.loc.gov/vocabulary/organizations/dlc</subject>
-    <predicate xid="x7hyatt2q68dsmfqmsm3pp45h">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="x63sttmf5y28mah4qp7dqphms">http://id.loc.gov/ontologies/bibframe/Source</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/vocabulary/organizations/dlc</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Source</object>
     </predicate>
-  </statement>
-  <statement xid="xqtytmh6dfqm458p37psa2shm">
-    <subject xid="x8m5t3sfamyphqs6th4qmd7p2">http://id.loc.gov/vocabulary/relators/prt</subject>
-    <predicate xid="xphsah284mm56smtq3p7fdtqy">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xh3q2ftatysm5qm4p6m7pd8sh">http://id.loc.gov/ontologies/bibframe/Role</object>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/vocabulary/relators/prt</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Role</object>
     </predicate>
-    <predicate xid="xyfp462mqdtassq58hpmt3m7h">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="x5tmshm7a2dtqhfsqp8yp6m43" datatype="xs:string">printer.</literal>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">printer.</literal>
     </predicate>
-    <predicate xid="xt5hp3df278tmsspm64mhyqqa">
-      <verb xid="xqmfas8h6htm547pmt2q3pysd">http://id.loc.gov/ontologies/bflc/relatorMatchKey</verb>
-      <literal xid="xh258qy6stpms7m3tdqhpam4f" datatype="xs:string">printer</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/relatorMatchKey</verb>
+      <literal datatype="xs:string">printer</literal>
     </predicate>
-  </statement>
-  <statement xid="xt7y8pmhpmfdqtsa3s45h6q2m">
-    <subject xid="xtq56psspydtm2af4qm73h8hm">https://metadatafram.es/3391099#Instance</subject>
-    <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Instance</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
     </predicate>
-    <predicate xid="x38m2a5mystm6pqhth47dspfq">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="xpf8amt4q3s6m5tqhm2y7hpds" datatype="xs:string">Biblia latina.</literal>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Biblia latina.</literal>
     </predicate>
-    <predicate xid="xmqht6qm8p735shmty2pfsa4d">
-      <verb xid="xmmhs6s82qhtm3ay4q7dpp5tf">http://id.loc.gov/ontologies/bflc/indexedIn</verb>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/indexedIn</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
         </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
             </predicate>
-            <predicate xid="x476ammydpqsmt835htfshqp2">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xqshmfs3mp85pm4q67attdyh2" datatype="xs:integer">4201</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:integer">4201</literal>
             </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
             </predicate>
-            <predicate xid="x7yp4m28s3q6ftt5mqmpdahsh">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x4mm67s2s3qp8pdytqmfa5hth" datatype="xs:string">GW</literal>
-            </predicate>
-          </object>
-        </predicate>
-      </object>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
-        </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
-            </predicate>
-            <predicate xid="xq6t7pahq4mpht5s2dm83smyf">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x26t3sqh4pdsamqm57htypm8f" datatype="xs:string">ib00526000</literal>
-            </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
-            </predicate>
-            <predicate xid="xfh6pd34y8sqmhqs2tpm5m7at">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xpaht7mh5qs32mydptqf684ms" datatype="xs:string">ISTC (CD-ROM, 1997 ed.)</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">GW</literal>
             </predicate>
           </object>
         </predicate>
       </object>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
         </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
             </predicate>
-            <predicate xid="xqmp3m8qptastm6h4ds72yhf5">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xd7fp3sp45q2atqhmmth6yms8" datatype="xs:string">I, 17 (IC.55)</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">ib00526000</literal>
             </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
             </predicate>
-            <predicate xid="xhmtyfs46q7t8h253dmapspmq">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xady8sqs3f4m2pthhm67p5qtm" datatype="xs:string">BM 15th cent.</literal>
-            </predicate>
-          </object>
-        </predicate>
-      </object>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
-        </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
-            </predicate>
-            <predicate xid="x5t4mmhq3pasqh82tmps7d6fy">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x5shstmf4q8ahmd7qpymt32p6" datatype="xs:integer">3031</literal>
-            </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
-            </predicate>
-            <predicate xid="xptdtmqys378p6amf4sm2q5hh">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x8m2a37ypqmttphqf54hssmd6" datatype="xs:string">Hain</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">ISTC (CD-ROM, 1997 ed.)</literal>
             </predicate>
           </object>
         </predicate>
       </object>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
         </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
             </predicate>
-            <predicate xid="x8thmpyf5spm6qq72t4ad3smh">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xham3pq5fyh4md7mqs6ts8p2t" datatype="xs:string">B-526</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">I, 17 (IC.55)</literal>
             </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
             </predicate>
-            <predicate xid="x8m5yqss3mphpatdq67mfht24">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x5ymp4staqfdsh68237phmtmq" datatype="xs:string">Goff</literal>
-            </predicate>
-          </object>
-        </predicate>
-      </object>
-      <object xid="x4f6hp5mhqdms3m8ttsqa27py">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xapmmtm3sfh25ds8y76qht4qp">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
-        </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
-            </predicate>
-            <predicate xid="xm4h8ftsmdhymqppa5ts32q67">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x53mfmq67hqspp4amd2st8tyh" datatype="xs:integer">56</literal>
-            </predicate>
-            <predicate xid="x8qfhtqms23sy47mp5h6patmd">
-              <verb xid="x4mh6ap2t8f3mts5ps7mhydqq">http://id.loc.gov/ontologies/bibframe/noteType</verb>
-              <literal xid="xt35qhm7sq8ahd6yps4fpmm2t" datatype="xs:string">Location</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-          <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-          <object xid="xhfdy2mqtth3p5476qsas8pmm">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
-            </predicate>
-            <predicate xid="xpt23ampftmsqh74yq856hdsm">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x64mtqt87m25maqpsphfsh3yd" datatype="xs:string">Procter</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">BM 15th cent.</literal>
             </predicate>
           </object>
         </predicate>
       </object>
-    </predicate>
-    <predicate xid="xsp2q6tp5ymadfst7m4m8h3hq">
-      <verb xid="xd85ym36t2p7mpqmqsfh4tsah">http://id.loc.gov/ontologies/bibframe/dimensions</verb>
-      <literal xid="xymt7hmqamp862s5pfhs3qt4d" datatype="xs:string">(fol.)</literal>
-    </predicate>
-    <predicate xid="xtp36dq8as5t42mmympfhsq7h">
-      <verb xid="x2s3qtthmhf5p86smma4qd7py">http://id.loc.gov/ontologies/bibframe/extent</verb>
-      <object xid="xqds8p32mmqtm7ftsh5yah6p4">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xp5tsmmqadts38hymqf742p6h">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xq5mptfy67adsmq8hm4htp2s3">http://id.loc.gov/ontologies/bibframe/Extent</object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
         </predicate>
-        <predicate xid="xppy76th8d5fsmamhsm42qtq3">
-          <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-          <literal xid="x8fh75a2qttq6ydmhpsmm4s3p" datatype="xs:string">2 v.</literal>
-        </predicate>
-      </object>
-    </predicate>
-    <predicate xid="xtmqpy6qm3aph24f5dst87shm">
-      <verb xid="x3ss84y7p2tqad5mfmhmp6qth">http://id.loc.gov/ontologies/bibframe/identifiedBy</verb>
-      <object xid="x6qmd8m3fst4p5msyh7a2qpht">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xap6hqqy28t35fd4pmmmtss7h">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xmmp3tq4qssaymt8f2h56h7pd">http://id.loc.gov/ontologies/bibframe/Local</object>
-        </predicate>
-        <predicate xid="xpmma7tt5s4hdqy283hq6fpms">
-          <verb xid="xh5mm6qsdtqpf4tp28mas73hy">http://id.loc.gov/ontologies/bibframe/source</verb>
-          <object xid="xq5aqymmttsm7p8h6fdp32hs4">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="x7hyatt2q68dsmfqmsm3pp45h">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="x63sttmf5y28mah4qp7dqphms">http://id.loc.gov/ontologies/bibframe/Source</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
             </predicate>
-            <predicate xid="xmp5as48py7d3msftmh6q2tqh">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xhdm3haps4t2qpmtqm586yf7s" datatype="xs:string">OCoLC</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:integer">3031</literal>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="x5hapmypqhts87mtq43dm2fs6">
-          <verb xid="x2t4dphqm3f5ymhpmss7qt86a">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
-          <literal xid="x74h5s2tm8apmhydt63qmqpfs" datatype="xs:string">ocn685392767</literal>
-        </predicate>
-      </object>
-      <object xid="x6qmd8m3fst4p5msyh7a2qpht">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xap6hqqy28t35fd4pmmmtss7h">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xmmp3tq4qssaymt8f2h56h7pd">http://id.loc.gov/ontologies/bibframe/Local</object>
-        </predicate>
-        <predicate xid="xtaf7sqy84mshmpq53t2mphd6">
-          <verb xid="x2t4dphqm3f5ymhpmss7qt86a">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
-          <literal xid="x7m82fastdpsmqhpmy36hqt45" datatype="xs:integer">3391099</literal>
-        </predicate>
-      </object>
-    </predicate>
-    <predicate xid="xpf3msa7qms6md8th45y2qpth">
-      <verb xid="x6fssdpqtq3pmhym8hm7524at">http://id.loc.gov/ontologies/bibframe/instanceOf</verb>
-      <object xid="x2pmfqmashph34qtmy7s85d6t">https://metadatafram.es/3391099#Work</object>
-    </predicate>
-    <predicate xid="xhpf5smttqs74p623mmqd8hya">
-      <verb xid="xtq237dpsp8qmf6m4hysatmh5">http://id.loc.gov/ontologies/bibframe/issuance</verb>
-      <object xid="xq5fm6h7stsmap4dmp823hqty">http://id.loc.gov/vocabulary/issuance/mono</object>
-    </predicate>
-    <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-      <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-      <object xid="x5874smhpmaqfsqmhd62pt3ty">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
-        </predicate>
-        <predicate xid="x2a3pfsmhpyqtsq4dt8h5mm76">
-          <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-          <literal xid="xqh4f67ty2mpmpmtd8sqs35ha" datatype="xs:string">Commonly known as the Gutenberg Bible.</literal>
-        </predicate>
-      </object>
-    </predicate>
-    <predicate xid="xypt7fsqh4ap2msmdq3hm6t58">
-      <verb xid="xppas3t7tq5hmdmm8qy6shf42">http://id.loc.gov/ontologies/bibframe/provisionActivity</verb>
-      <object xid="xmt5ph7shyf864amtqmdq3s2p">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xmt5ph7shyf864amtqmdq3s2p">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xmd8t4q7pm3a2mtspy5qhfsh6">http://id.loc.gov/ontologies/bibframe/ProvisionActivity</object>
-          <object xid="x2tqdaf6smy5mht4ppqs73hm8">http://id.loc.gov/ontologies/bibframe/Publication</object>
-        </predicate>
-        <predicate xid="xqmha3p86t7spysdqh5m2ft4m">
-          <verb xid="xh4p36qsysqmmpam2ht857dtf">http://id.loc.gov/ontologies/bibframe/date</verb>
-          <literal xid="xt8am6ydpsftsh754mqp3m2hq" datatype="http://id.loc.gov/datatypes/edtf">1454</literal>
-        </predicate>
-        <predicate xid="x6a8yss7p2m4hqmpd3f5ttqmh">
-          <verb xid="xaf246qms7ms3y5mtpthd8qhp">http://id.loc.gov/ontologies/bibframe/place</verb>
-          <object xid="x3hd4mmp7m2hfqat6yp85tsqs">http://id.loc.gov/vocabulary/countries/gw</object>
-        </predicate>
-      </object>
-      <object xid="xmt5ph7shyf864amtqmdq3s2p">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xmt5ph7shyf864amtqmdq3s2p">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xmd8t4q7pm3a2mtspy5qhfsh6">http://id.loc.gov/ontologies/bibframe/ProvisionActivity</object>
-          <object xid="x2tqdaf6smy5mht4ppqs73hm8">http://id.loc.gov/ontologies/bibframe/Publication</object>
-        </predicate>
-        <predicate xid="x2thmmyta36sdhs7p5qp8f4mq">
-          <verb xid="x67my2mfqsatpphsd835hmq4t">http://id.loc.gov/ontologies/bibframe/agent</verb>
-          <object xid="xpphmm57a2sqf3t8d4s6tmqyh">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xtm42h6fq7d8a5tsyp3msmhpq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="x35hp2sqhmdmfstt6yam7p84q">http://id.loc.gov/ontologies/bibframe/Agent</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
             </predicate>
-            <predicate xid="x37ptm2pmhqym8ass5hqd4t6f">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xqs84mm56sham7dq32pyhpttf" datatype="xs:string">Johann Gutenberg</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">Hain</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="xp3tf27qhqs48mpm5dt6mhsya">
-          <verb xid="xh4p36qsysqmmpam2ht857dtf">http://id.loc.gov/ontologies/bibframe/date</verb>
-          <literal xid="x58tmpqtqyfssh43md27m6pah" datatype="xs:string">ca. 1454</literal>
+      </object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
         </predicate>
-        <predicate xid="xs8dppy2f6a4hsqmm5t7thm3q">
-          <verb xid="xaf246qms7ms3y5mtpthd8qhp">http://id.loc.gov/ontologies/bibframe/place</verb>
-          <object xid="x83shfp7y254mdpsthqaq6mmt">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="x5m26yqmq7sfppmttd4sh3h8a">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xmt24samqy3h7dtmh8pf6qsp5">http://id.loc.gov/ontologies/bibframe/Place</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
             </predicate>
-            <predicate xid="xhfqmt4dq37t2s5pys6hm8pam">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x8f7hqtt2d5yahpsmq634mpms" datatype="xs:string">Mainz</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">B-526</literal>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">Goff</literal>
+            </predicate>
+          </object>
+        </predicate>
+      </object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:integer">56</literal>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/noteType</verb>
+              <literal datatype="xs:string">Location</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Title</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">Procter</literal>
             </predicate>
           </object>
         </predicate>
       </object>
     </predicate>
-    <predicate xid="x6d5t2s437msy8mhpmfaqhqtp">
-      <verb xid="xm5tmpqhf28s63aty7mpd4sqh">http://id.loc.gov/ontologies/bibframe/provisionActivityStatement</verb>
-      <literal xid="x4q85hm3dsppqa2ft6shm7myt" datatype="xs:string">[Mainz : Johann Gutenberg, ca. 1454]</literal>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/dimensions</verb>
+      <literal datatype="xs:string">(fol.)</literal>
     </predicate>
-    <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-      <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-      <object xid="xhfdy2mqtth3p5476qsas8pmm">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/extent</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Extent</object>
         </predicate>
-        <predicate xid="x38m2a5mystm6pqhth47dspfq">
-          <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-          <literal xid="xpf8amt4q3s6m5tqhm2y7hpds" datatype="xs:string">Biblia latina.</literal>
-        </predicate>
-        <predicate xid="xtyf4d52qmqh83appmshs76mt">
-          <verb xid="xthf8qm26y5tsdspq43map7hm">http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
-          <literal xid="xpf8amt4q3s6m5tqhm2y7hpds" datatype="xs:string">Biblia latina.</literal>
-        </predicate>
-        <predicate xid="xs8tqppq7mmy42h5td63sfmha">
-          <verb xid="x5f3s6q27mh4tppmdm8athyqs">http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
-          <literal xid="xh748qmd62apqshmy5mtfs3tp" datatype="xs:string">Biblia latina</literal>
+        <predicate>
+          <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+          <literal datatype="xs:string">2 v.</literal>
         </predicate>
       </object>
     </predicate>
-  </statement>
-  <statement xid="x8mtq3ph7t6dpmqh2sa5y4smf">
-    <subject xid="xms3m2sh87dtqpm45pha6qfty">https://metadatafram.es/3391099#Item856-33</subject>
-    <predicate xid="xats475pym6f8qd2pqmth3mhs">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="x2asqhm8d5fm4hpqs6tty7mp3">http://id.loc.gov/ontologies/bibframe/Item</object>
-    </predicate>
-    <predicate xid="x4msmfq2a8ystmd6h7pht35pq">
-      <verb xid="xs867ph3mt2mtqm4ap5qydfsh">http://id.loc.gov/ontologies/bibframe/electronicLocator</verb>
-      <object xid="x6ymph4tqhsd3qtaf2sp87mm5">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="x27qp8mhs5h6y4ast3mpmfdtq">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="x8h2pts7mmy5f6thdmsqa3q4p">http://www.w3.org/2000/01/rdf-schema#Resource</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/identifiedBy</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Local</object>
         </predicate>
-        <predicate xid="xqdstm3at4q7mfp5p82yshhm6">
-          <verb xid="xyh8tasm3sq2p5fm7mpq6th4d">http://id.loc.gov/ontologies/bflc/locator</verb>
-          <object xid="x8y5smstmp2q46qa3pfht7hmd">http://beinecke.library.yale.edu/dl_crosscollex/callnumSRCHXC.asp?WC=N&amp;SS=N&amp;CN=ZZi_56</object>
-        </predicate>
-        <predicate xid="xm4y6d7sa85mp2tfqpq3hmhts">
-          <verb xid="xhm5t7tpyaqs3d8fsmpm4h6q2">http://id.loc.gov/ontologies/bibframe/note</verb>
-          <object xid="x5874smhpmaqfsqmhd62pt3ty">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xqht7tmmfyqsh4m35dap2sp68">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xyp5qmdm2ph3stqtms78af6h4">http://id.loc.gov/ontologies/bibframe/Note</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/source</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Source</object>
             </predicate>
-            <predicate xid="xsd5ftmqyp6hq4phma7mt83s2">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="xmh5pmq2fda6y3hsst87tp4qm" datatype="xs:string">View a selection of digital images in the Beinecke Library's Digital Images Online database</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">OCoLC</literal>
             </predicate>
           </object>
+        </predicate>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
+          <literal datatype="xs:string">ocn685392767</literal>
+        </predicate>
+      </object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Local</object>
+        </predicate>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
+          <literal datatype="xs:integer">3391099</literal>
         </predicate>
       </object>
     </predicate>
-    <predicate xid="xs32sq5patpm4mdy7hq68fhtm">
-      <verb xid="xs4qpfhqm7ms5hta6mty2pd83">http://id.loc.gov/ontologies/bibframe/itemOf</verb>
-      <object xid="xt3shpyfs4tpm57ad2qmmhq68">https://metadatafram.es/3391099#Instance856-33</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/instanceOf</verb>
+      <object>https://metadatafram.es/3391099#Work</object>
     </predicate>
-  </statement>
-  <statement xid="x3h8q4mtpsfa7d2spyt6m5qmh">
-    <subject xid="xh2qfh386mdyspqap7s4tm5tm">https://metadatafram.es/3391099#Work130-10</subject>
-    <predicate xid="xy3dqm7tmht8fsmphqpsa4625">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xpy7hmmqh8md6245qstftpsa3">http://id.loc.gov/ontologies/bibframe/Work</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/issuance</verb>
+      <object>http://id.loc.gov/vocabulary/issuance/mono</object>
     </predicate>
-    <predicate xid="xytph735t2mq4mhqmfp8s6dsa">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="x4hq685qsa7yfs2tdpmmtm3hp" datatype="xs:string">Bible. Vulgate. 1454.</literal>
-    </predicate>
-    <predicate xid="xhtpshmfqp3m7mda2y6q5s4t8">
-      <verb xid="x3ht4sqf256ptmm8myhsdp7aq">http://id.loc.gov/ontologies/bibframe/originDate</verb>
-      <literal xid="xt8am6ydpsftsh754mqp3m2hq" datatype="xs:integer">1454</literal>
-    </predicate>
-    <predicate xid="x4dqf826ph5mspma7qyt3sthm">
-      <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-      <object xid="x378mqty5q6smhdmfthpp4as2">http://id.loc.gov/authorities/names/n00020514</object>
-    </predicate>
-    <predicate xid="xqfp7532ps46qmhms8mytdhat">
-      <verb xid="x4myhfqatsmp8q75hptd3m2s6">http://id.loc.gov/ontologies/bibframe/version</verb>
-      <literal xid="xsdsth2yh3m47mq5mpf68pqta" datatype="xs:string">Vulgate</literal>
-    </predicate>
-  </statement>
-  <statement xid="x26mq45smhsqatphd8t7p3fym">
-    <subject xid="xstmhp4mpqhys85t3fq62a7md">https://metadatafram.es/3391099#Work740-31</subject>
-    <predicate xid="xy3dqm7tmht8fsmphqpsa4625">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xpy7hmmqh8md6245qstftpsa3">http://id.loc.gov/ontologies/bibframe/Work</object>
-    </predicate>
-    <predicate xid="xfp2mt8tymqp4sq35m6sa7hdh">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="xqt3dhpqatfspm6hys285m7m4" datatype="xs:string">Gutenberg Bible.</literal>
-    </predicate>
-    <predicate xid="xy2hqhmtfdpas5m4sqm6738pt">
-      <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-      <object xid="x4fp8thysqhdmp2t7m5sa6qm3">http://id.loc.gov/authorities/names/n82109028</object>
-    </predicate>
-  </statement>
-  <statement xid="x4tp8yfsm63shq5m7hqtap2md">
-    <subject xid="x4fp8thysqhdmp2t7m5sa6qm3">http://id.loc.gov/authorities/names/n82109028</subject>
-    <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
-    </predicate>
-    <predicate xid="x5tsp4qfm2sqty3mhda8h7mp6">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="xf47ht8a5pm2q6qsdtyhmps3m" datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
-      <literal xid="xqt3dhpqatfspm6hys285m7m4" datatype="xs:string">Gutenberg Bible.</literal>
-    </predicate>
-    <predicate xid="xpsmpatqmm43qs7hfthyd6852">
-      <verb xid="xtmpmy7f26qdamq58hs3h4stp">http://id.loc.gov/ontologies/bflc/title30MarcKey</verb>
-      <literal xid="xftp7hahqst4582dmpmymqs63" datatype="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</literal>
-    </predicate>
-    <predicate xid="xhts6m2qap4tms85pmdy7fqh3">
-      <verb xid="xs5mm36dt7thqhy8fmapp4qs2">http://id.loc.gov/ontologies/bflc/title30MatchKey</verb>
-      <literal xid="xf47ht8a5pm2q6qsdtyhmps3m" datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
-    </predicate>
-    <predicate xid="x4syppmt56s2md37amftqqhh8">
-      <verb xid="xthf8qm26y5tsdspq43map7hm">http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
-      <literal xid="xf47ht8a5pm2q6qsdtyhmps3m" datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
-      <literal xid="xqt3dhpqatfspm6hys285m7m4" datatype="xs:string">Gutenberg Bible.</literal>
-    </predicate>
-    <predicate xid="x56hy3mdmfmsq7s42ppt8qtah">
-      <verb xid="x5f3s6q27mh4tppmdm8athyqs">http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
-      <literal xid="xs286pa7pdmtqtshyfqmh5m34" datatype="xs:string">Bible</literal>
-      <literal xid="x5mtqhqdh7typ2sp38msam64f" datatype="xs:string">Gutenberg Bible</literal>
-    </predicate>
-  </statement>
-  <statement xid="xms78mp24hsqyqfmttadh6p35">
-    <subject xid="xt3shpyfs4tpm57ad2qmmhq68">https://metadatafram.es/3391099#Instance856-33</subject>
-    <predicate xid="xp48t56fshatmpm7s3qhdqm2y">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xhp8f2sd4m6thyqs37apmt5mq">http://id.loc.gov/ontologies/bibframe/Electronic</object>
-      <object xid="xp72qmpdsst85y3fm4aqh6htm">http://id.loc.gov/ontologies/bibframe/Instance</object>
-    </predicate>
-    <predicate xid="xhy5a4sms736dqtm8mtp2pqfh">
-      <verb xid="xtth5q38mshqyfam7d2p46smp">http://id.loc.gov/ontologies/bibframe/hasItem</verb>
-      <object xid="xms3m2sh87dtqpm45pha6qfty">https://metadatafram.es/3391099#Item856-33</object>
-    </predicate>
-    <predicate xid="xpf3msa7qms6md8th45y2qpth">
-      <verb xid="x6fssdpqtq3pmhym8hm7524at">http://id.loc.gov/ontologies/bibframe/instanceOf</verb>
-      <object xid="x2pmfqmashph34qtmy7s85d6t">https://metadatafram.es/3391099#Work</object>
-    </predicate>
-    <predicate xid="xtpdfmtq2yhmas4s6q7m538hp">
-      <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-      <object xid="xhfdy2mqtth3p5476qsas8pmm">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xh48m7pd3psttqmm5y62shfaq">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xs8sa6typmfthh3d2pmqmq457">http://id.loc.gov/ontologies/bibframe/Title</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Note</object>
         </predicate>
-        <predicate xid="x38m2a5mystm6pqhth47dspfq">
-          <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-          <literal xid="xpf8amt4q3s6m5tqhm2y7hpds" datatype="xs:string">Biblia latina.</literal>
-        </predicate>
-        <predicate xid="xtyf4d52qmqh83appmshs76mt">
-          <verb xid="xthf8qm26y5tsdspq43map7hm">http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
-          <literal xid="xpf8amt4q3s6m5tqhm2y7hpds" datatype="xs:string">Biblia latina.</literal>
-        </predicate>
-        <predicate xid="xs8tqppq7mmy42h5td63sfmha">
-          <verb xid="x5f3s6q27mh4tppmdm8athyqs">http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
-          <literal xid="xh748qmd62apqshmy5mtfs3tp" datatype="xs:string">Biblia latina</literal>
+        <predicate>
+          <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+          <literal datatype="xs:string">Commonly known as the Gutenberg Bible.</literal>
         </predicate>
       </object>
     </predicate>
-  </statement>
-  <statement xid="xm8hqptt6fdm72qp3y5assh4m">
-    <subject xid="x2pmfqmashph34qtmy7s85d6t">https://metadatafram.es/3391099#Work</subject>
-    <predicate xid="xts73mm8qh5ydtpms6qafp24h">
-      <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-      <object xid="xqs3tmhsd7ftp65ahm2mq48py">http://id.loc.gov/ontologies/bibframe/Text</object>
-      <object xid="xpy7hmmqh8md6245qstftpsa3">http://id.loc.gov/ontologies/bibframe/Work</object>
-    </predicate>
-    <predicate xid="xqqtdtspy5472f8mh3a6hpmms">
-      <verb xid="xamps3tty74p5dmm2sf68hqqh">http://id.loc.gov/ontologies/bibframe/test</verb>
-      <literal xid="x2dtmq6hhs3pyamp84m7fqs5t" datatype="rdf:HTML">&lt;html&gt;&lt;head&gt;&lt;title&gt;Test&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Test&lt;/body&gt;&lt;/html&gt;</literal>
-    </predicate>
-    <predicate xid="x8t23qtd7h5phpsqm6aysfm4m">
-      <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-      <literal xid="xf47ht8a5pm2q6qsdtyhmps3m" datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
-    </predicate>
-    <predicate xid="x64sf5mt3sqhdmpyq7m2a8pht">
-      <verb xid="xm74ma3qqfpss652d8pththmy">http://id.loc.gov/ontologies/bibframe/adminMetadata</verb>
-      <object xid="xpy82mqhs6dm5qasp7h3ttmf4">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xpy82mqhs6dm5qasp7h3ttmf4">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xqdf75m4a32hmhqtmps6tys8p">http://id.loc.gov/ontologies/bibframe/AdminMetadata</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/provisionActivity</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/ProvisionActivity</object>
+          <object>http://id.loc.gov/ontologies/bibframe/Publication</object>
         </predicate>
-        <predicate xid="xh6yp53d2sqf7q8mtmstp4mha">
-          <verb xid="xhmq6qmt3sshm2dpa5t74ypf8">http://id.loc.gov/ontologies/bflc/encodingLevel</verb>
-          <object xid="xy8h2qm47am3hfmpt5sdptq6s">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xam637psp4qm2hqy8mhdst5tf">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xmm4thph7t6dmq583saq2fpys">http://id.loc.gov/ontologies/bflc/EncodingLevel</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/date</verb>
+          <literal datatype="http://id.loc.gov/datatypes/edtf">1454</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/place</verb>
+          <object>http://id.loc.gov/vocabulary/countries/gw</object>
+        </predicate>
+      </object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/ProvisionActivity</object>
+          <object>http://id.loc.gov/ontologies/bibframe/Publication</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/agent</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Agent</object>
             </predicate>
-            <predicate xid="xpm8sdt4fsq7a5h2hy3m6mpqt">
-              <verb xid="x8mta3ph6fsqyd4qp5m2ts7hm">http://id.loc.gov/ontologies/bibframe/code</verb>
-              <literal xid="xh6m3257qsdsmmptqht8ypaf4" datatype="xs:integer">1</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">Johann Gutenberg</literal>
             </predicate>
           </object>
         </predicate>
-        <predicate xid="x65mp2t7qds8hm3aymq4pfhts">
-          <verb xid="xp6s73m5ytfqmhd2hq4mp8ast">http://id.loc.gov/ontologies/bibframe/changeDate</verb>
-          <literal xid="xhmps3ts2m5tqmqph46fd8y7a" datatype="xs:dateTime">2011-03-10T19:28:45</literal>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/date</verb>
+          <literal datatype="xs:string">ca. 1454</literal>
         </predicate>
-        <predicate xid="xp64sttma3m8sqhpm57q2yfdh">
-          <verb xid="x3qayhhm8tt75sqs6f42mdpmp">http://id.loc.gov/ontologies/bibframe/creationDate</verb>
-          <literal xid="xh2mdhqtqp35ayp7mmts648sf" datatype="xs:date">1992-08-12</literal>
-        </predicate>
-        <predicate xid="x26m3ftm7q5pdhshst8yaq4mp">
-          <verb xid="x4qst2pyah7qm86sm5mfthpd3">http://id.loc.gov/ontologies/bibframe/descriptionConventions</verb>
-          <object xid="xa4qp5m8dhs2psfm6tmyth7q3">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xa4qp5m8dhs2psfm6tmyth7q3">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xm3mppy524tssf76ahhtqd8qm">http://id.loc.gov/ontologies/bibframe/DescriptionConventions</object>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/place</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Place</object>
             </predicate>
-            <predicate xid="xth32a54spdyhm8mqfqs76ptm">
-              <verb xid="x8mta3ph6fsqyd4qp5m2ts7hm">http://id.loc.gov/ontologies/bibframe/code</verb>
-              <literal xid="x28fttm5h6dhqpp4q73smamsy" datatype="xs:string">unknown</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="x3tytqpsds7ham84fmqmp2h65">
-          <verb xid="xmtqy3q67adt5p8mss4hhfpm2">http://id.loc.gov/ontologies/bibframe/generationProcess</verb>
-          <object xid="x2ppyh7qstd48hm3mt5f6asmq">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="x2ppyh7qstd48hm3mt5f6asmq">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xmmdqhat57mhy3fq4ps628spt">http://id.loc.gov/ontologies/bibframe/GenerationProcess</object>
-            </predicate>
-            <predicate xid="xdfshta5y6qp3m8sh4mm7pqt2">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x345spd6aqtqtsm7fmm2hp8yh" datatype="xs:string">DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2017-10-10T01:00:51Z</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xtmqpy6qm3aph24f5dst87shm">
-          <verb xid="x3ss84y7p2tqad5mfmhmp6qth">http://id.loc.gov/ontologies/bibframe/identifiedBy</verb>
-          <object xid="x6qmd8m3fst4p5msyh7a2qpht">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xap6hqqy28t35fd4pmmmtss7h">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="xmmp3tq4qssaymt8f2h56h7pd">http://id.loc.gov/ontologies/bibframe/Local</object>
-            </predicate>
-            <predicate xid="xss8p4mf5t62yht7mmdqpqh3a">
-              <verb xid="xh5mm6qsdtqpf4tp28mas73hy">http://id.loc.gov/ontologies/bibframe/source</verb>
-              <object xid="xsqp8a6smpt723fmhqy4d5mth">http://id.loc.gov/vocabulary/organizations/dlc</object>
-            </predicate>
-            <predicate xid="xtaf7sqy84mshmpq53t2mphd6">
-              <verb xid="x2t4dphqm3f5ymhpmss7qt86a">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
-              <literal xid="x7m82fastdpsmqhpmy36hqt45" datatype="xs:integer">3391099</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xpmma7tt5s4hdqy283hq6fpms">
-          <verb xid="xh5mm6qsdtqpf4tp28mas73hy">http://id.loc.gov/ontologies/bibframe/source</verb>
-          <object xid="xpphmm57a2sqf3t8d4s6tmqyh">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xpphmm57a2sqf3t8d4s6tmqyh">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="x35hp2sqhmdmfstt6yam7p84q">http://id.loc.gov/ontologies/bibframe/Agent</object>
-              <object xid="x63sttmf5y28mah4qp7dqphms">http://id.loc.gov/ontologies/bibframe/Source</object>
-            </predicate>
-            <predicate xid="x4dm2q5mt673pfpsshymth8qa">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x8h4qhq6m3tpsft7mdymaps52" datatype="xs:string">CtY-BR</literal>
-            </predicate>
-          </object>
-          <object xid="xpphmm57a2sqf3t8d4s6tmqyh">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xpphmm57a2sqf3t8d4s6tmqyh">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="x35hp2sqhmdmfstt6yam7p84q">http://id.loc.gov/ontologies/bibframe/Agent</object>
-              <object xid="x63sttmf5y28mah4qp7dqphms">http://id.loc.gov/ontologies/bibframe/Source</object>
-            </predicate>
-            <predicate xid="x4dm2q5mt673pfpsshymth8qa">
-              <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-              <literal xid="x8h4qhq6m3tpsft7mdymaps52" datatype="xs:string">CtY-BR</literal>
-            </predicate>
-          </object>
-        </predicate>
-        <predicate xid="xqm3tqd6fhsp5a4ps8ym2tmh7">
-          <verb xid="xsfm6mhm2hastqpydpt584q73">http://id.loc.gov/ontologies/bibframe/status</verb>
-          <object xid="xpt5sh4f8ma6q372mhsqpdtym">
-            <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-            <predicate xid="xm74t8pqy3pmdhfms5a2qhs6t">
-              <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-              <object xid="x6pmqhtfm3thsmdp2s5qya478">http://id.loc.gov/ontologies/bibframe/Status</object>
-            </predicate>
-            <predicate xid="xhdq7qym2fspth8tm6ap34m5s">
-              <verb xid="x8mta3ph6fsqyd4qp5m2ts7hm">http://id.loc.gov/ontologies/bibframe/code</verb>
-              <literal xid="x4dtyp8sq2fm6pam5t3h7smqh" datatype="xs:string">c</literal>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">Mainz</literal>
             </predicate>
           </object>
         </predicate>
       </object>
     </predicate>
-    <predicate xid="x42m7dm6hhqspsa5tq8pytf3m">
-      <verb xid="xhpamsq86pd53sqhft74y2tmm">http://id.loc.gov/ontologies/bibframe/contribution</verb>
-      <object xid="xahdh524qt7tmpmm8f6p3sqys">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xahdh524qt7tmpmm8f6p3sqys">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xthp7d6t5qphmm328fa4sqmys">http://id.loc.gov/ontologies/bibframe/Contribution</object>
-        </predicate>
-        <predicate xid="xfym54psmpmdq7ht2tha3s86q">
-          <verb xid="x67my2mfqsatpphsd835hmq4t">http://id.loc.gov/ontologies/bibframe/agent</verb>
-          <object xid="x38tps5ypt4qqdmsh6f7am2mh">http://id.loc.gov/authorities/names/n50034916</object>
-        </predicate>
-        <predicate xid="x4837sspqtfya2hmdm5p6qhtm">
-          <verb xid="xtm8am3fqmhpsp764t5dshq2y">http://id.loc.gov/ontologies/bibframe/role</verb>
-          <object xid="x8m5t3sfamyphqs6th4qmd7p2">http://id.loc.gov/vocabulary/relators/prt</object>
-        </predicate>
-      </object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/provisionActivityStatement</verb>
+      <literal datatype="xs:string">[Mainz : Johann Gutenberg, ca. 1454]</literal>
     </predicate>
-    <predicate xid="xpty7qdhmfm3th56spqs428ma">
-      <verb xid="xhf8mqsaypm52s46pt7qhmdt3">http://id.loc.gov/ontologies/bibframe/hasInstance</verb>
-      <object xid="xtq56psspydtm2af4qm73h8hm">https://metadatafram.es/3391099#Instance</object>
-      <object xid="xt3shpyfs4tpm57ad2qmmhq68">https://metadatafram.es/3391099#Instance856-33</object>
-    </predicate>
-    <predicate xid="xq8s3fdm6t5sptqm4mh27yahp">
-      <verb xid="xq7hmq86f3yp2pmt4s5hatdsm">http://id.loc.gov/ontologies/bibframe/hasPart</verb>
-      <object xid="xstmhp4mpqhys85t3fq62a7md">https://metadatafram.es/3391099#Work740-31</object>
-    </predicate>
-    <predicate xid="xqmssm3ap4h27hptdmyt8q6f5">
-      <verb xid="x7fmpsh3y4atdqmqm8pt5sh26">http://id.loc.gov/ontologies/bibframe/language</verb>
-      <object xid="xdyths37pp6f2m4hmq5tmaqs8">http://id.loc.gov/vocabulary/languages/lat</object>
-      <object xid="xmta8m5h46qsdth2qsy7fpm3p">
-        <subject xid="xpt2h43mm867a5sysmqqdfpht"/>
-        <predicate xid="xmmmp64tpt8hsqyd72fa5hs3q">
-          <verb xid="x4amy7ph2tthq5p8sm3qmd6sf">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
-          <object xid="xt75f32m4pssq8m6dhmqhtapy">http://id.loc.gov/ontologies/bibframe/Language</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Title</object>
         </predicate>
-        <predicate xid="xd3mmaq5hth4p6psf87qy2smt">
-          <verb xid="x47pqq56hmsdmyph3t2ta8fms">http://www.w3.org/2000/01/rdf-schema#label</verb>
-          <literal xid="xm2m5thaqtsf7q36mds8y4hpp" datatype="xs:string">Latin</literal>
+        <predicate>
+          <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+          <literal datatype="xs:string">Biblia latina.</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
+          <literal datatype="xs:string">Biblia latina.</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
+          <literal datatype="xs:string">Biblia latina</literal>
         </predicate>
       </object>
     </predicate>
-    <predicate xid="xhtpshmfqp3m7mda2y6q5s4t8">
-      <verb xid="x3ht4sqf256ptmm8myhsdp7aq">http://id.loc.gov/ontologies/bibframe/originDate</verb>
-      <literal xid="xt8am6ydpsftsh754mqp3m2hq" datatype="xs:integer">1454</literal>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Item856-33</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Item</object>
     </predicate>
-    <predicate xid="xy2hqhmtfdpas5m4sqm6738pt">
-      <verb xid="xtmmh74a5mptsfy32s8q6pdqh">http://id.loc.gov/ontologies/bibframe/title</verb>
-      <object xid="x4fp8thysqhdmp2t7m5sa6qm3">http://id.loc.gov/authorities/names/n82109028</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/electronicLocator</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://www.w3.org/2000/01/rdf-schema#Resource</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bflc/locator</verb>
+          <object>http://beinecke.library.yale.edu/dl_crosscollex/callnumSRCHXC.asp?WC=N&amp;SS=N&amp;CN=ZZi_56</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/note</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Note</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">View a selection of digital images in the Beinecke Library's Digital Images Online database</literal>
+            </predicate>
+          </object>
+        </predicate>
+      </object>
     </predicate>
-    <predicate xid="xst58mm3sdp6hhp2amqf7qty4">
-      <verb xid="xdm34f5hpqsqtm7tp8s6mhay2">http://id.loc.gov/ontologies/bibframe/translationOf</verb>
-      <object xid="xh2qfh386mdyspqap7s4tm5tm">https://metadatafram.es/3391099#Work130-10</object>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/itemOf</verb>
+      <object>https://metadatafram.es/3391099#Instance856-33</object>
     </predicate>
-    <predicate xid="xqfp7532ps46qmhms8mytdhat">
-      <verb xid="x4myhfqatsmp8q75hptd3m2s6">http://id.loc.gov/ontologies/bibframe/version</verb>
-      <literal xid="xsdsth2yh3m47mq5mpf68pqta" datatype="xs:string">Vulgate</literal>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Work130-10</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Work</object>
     </predicate>
-  </statement>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Bible. Vulgate. 1454.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/originDate</verb>
+      <literal datatype="xs:integer">1454</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+      <object>http://id.loc.gov/authorities/names/n00020514</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/version</verb>
+      <literal datatype="xs:string">Vulgate</literal>
+    </predicate>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Work740-31</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Work</object>
+    </predicate>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Gutenberg Bible.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+      <object>http://id.loc.gov/authorities/names/n82109028</object>
+    </predicate>
+  </statements>
+  <statements>
+    <subject>http://id.loc.gov/authorities/names/n82109028</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Title</object>
+    </predicate>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
+      <literal datatype="xs:string">Gutenberg Bible.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/title30MarcKey</verb>
+      <literal datatype="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/title30MatchKey</verb>
+      <literal datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
+      <literal datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
+      <literal datatype="xs:string">Gutenberg Bible.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
+      <literal datatype="xs:string">Bible</literal>
+      <literal datatype="xs:string">Gutenberg Bible</literal>
+    </predicate>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Instance856-33</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Electronic</object>
+      <object>http://id.loc.gov/ontologies/bibframe/Instance</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/hasItem</verb>
+      <object>https://metadatafram.es/3391099#Item856-33</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/instanceOf</verb>
+      <object>https://metadatafram.es/3391099#Work</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Title</object>
+        </predicate>
+        <predicate>
+          <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+          <literal datatype="xs:string">Biblia latina.</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bflc/titleSortKey</verb>
+          <literal datatype="xs:string">Biblia latina.</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/mainTitle</verb>
+          <literal datatype="xs:string">Biblia latina</literal>
+        </predicate>
+      </object>
+    </predicate>
+  </statements>
+  <statements>
+    <subject>https://metadatafram.es/3391099#Work</subject>
+    <predicate>
+      <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+      <object>http://id.loc.gov/ontologies/bibframe/Text</object>
+      <object>http://id.loc.gov/ontologies/bibframe/Work</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/test</verb>
+      <literal datatype="rdf:HTML">&lt;html&gt;&lt;head&gt;&lt;title&gt;Test&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Test&lt;/body&gt;&lt;/html&gt;</literal>
+    </predicate>
+    <predicate>
+      <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+      <literal datatype="xs:string">Bible. Latin. Vulgate. 1454.</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/adminMetadata</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/AdminMetadata</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bflc/encodingLevel</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bflc/EncodingLevel</object>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/code</verb>
+              <literal datatype="xs:integer">1</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/changeDate</verb>
+          <literal datatype="xs:dateTime">2011-03-10T19:28:45</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/creationDate</verb>
+          <literal datatype="xs:date">1992-08-12</literal>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/descriptionConventions</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/DescriptionConventions</object>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/code</verb>
+              <literal datatype="xs:string">unknown</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/generationProcess</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/GenerationProcess</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2017-10-10T01:00:51Z</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/identifiedBy</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Local</object>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/source</verb>
+              <object>http://id.loc.gov/vocabulary/organizations/dlc</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</verb>
+              <literal datatype="xs:integer">3391099</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/source</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Agent</object>
+              <object>http://id.loc.gov/ontologies/bibframe/Source</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">CtY-BR</literal>
+            </predicate>
+          </object>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Agent</object>
+              <object>http://id.loc.gov/ontologies/bibframe/Source</object>
+            </predicate>
+            <predicate>
+              <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+              <literal datatype="xs:string">CtY-BR</literal>
+            </predicate>
+          </object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/status</verb>
+          <object>
+            <subject/>
+            <predicate>
+              <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+              <object>http://id.loc.gov/ontologies/bibframe/Status</object>
+            </predicate>
+            <predicate>
+              <verb>http://id.loc.gov/ontologies/bibframe/code</verb>
+              <literal datatype="xs:string">c</literal>
+            </predicate>
+          </object>
+        </predicate>
+      </object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/contribution</verb>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Contribution</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/agent</verb>
+          <object>http://id.loc.gov/authorities/names/n50034916</object>
+        </predicate>
+        <predicate>
+          <verb>http://id.loc.gov/ontologies/bibframe/role</verb>
+          <object>http://id.loc.gov/vocabulary/relators/prt</object>
+        </predicate>
+      </object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/hasInstance</verb>
+      <object>https://metadatafram.es/3391099#Instance</object>
+      <object>https://metadatafram.es/3391099#Instance856-33</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/hasPart</verb>
+      <object>https://metadatafram.es/3391099#Work740-31</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/language</verb>
+      <object>http://id.loc.gov/vocabulary/languages/lat</object>
+      <object>
+        <subject/>
+        <predicate>
+          <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+          <object>http://id.loc.gov/ontologies/bibframe/Language</object>
+        </predicate>
+        <predicate>
+          <verb>http://www.w3.org/2000/01/rdf-schema#label</verb>
+          <literal datatype="xs:string">Latin</literal>
+        </predicate>
+      </object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/originDate</verb>
+      <literal datatype="xs:integer">1454</literal>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/title</verb>
+      <object>http://id.loc.gov/authorities/names/n82109028</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/translationOf</verb>
+      <object>https://metadatafram.es/3391099#Work130-10</object>
+    </predicate>
+    <predicate>
+      <verb>http://id.loc.gov/ontologies/bibframe/version</verb>
+      <literal datatype="xs:string">Vulgate</literal>
+    </predicate>
+  </statements>
 </triples>
