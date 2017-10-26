@@ -13,28 +13,7 @@ declare function basex-rdf:transform(
   $rdf as xs:string
 ) as document-node() {
   document {
-    let $parsed := xslt:transform(graphs:parse($rdf), $basex-rdf:XSL)        
-    return (
-      copy $p := $parsed
-        modify (
-          for $node in $p//*
-          return
-            if ($node/@xid)
-            then (
-              if (normalize-space($node))
-              then
-                replace value of node $node/@xid
-                  with basex-rdf:xid(string-join($node))
-              else
-                replace value of node $node/@xid
-                  with basex-rdf:xid(xs:string(current-dateTime()))
-            )
-            else
-              ()
-            )
-          return
-            $p              
-        )
+    xslt:transform(graphs:parse($rdf), $basex-rdf:XSL)            
   }  
 };
 
