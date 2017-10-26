@@ -197,8 +197,8 @@ let $triples as xs:string :=
   ]``
 let $options :=
   <options>
-    <subject></subject>
-    <verb>bf:subject</verb>
+    <subject>http://id.loc.gov/authorities/names/n50034916</subject>
+    <verb></verb>
     <object></object>
   </options>
 return (
