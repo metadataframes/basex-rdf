@@ -88,6 +88,7 @@ can be used to list all subject-object pairs linked by the `rdf:type` predicate.
 
 ## TODO
 * Incorporate test suite using [XSpec](https://github.com/xspec/xspec/)
+* Back conversion from internal XML representation to Turtle, etc.
 * Add further examples, etc. 
 
 ## License
