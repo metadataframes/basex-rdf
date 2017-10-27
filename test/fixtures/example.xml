@@ -1,1143 +1,1143 @@
-<g>
-   <c>
-      <i p="bf">http://id.loc.gov/ontologies/bibframe/</i>
-      <i p="bflc">http://id.loc.gov/ontologies/bflc/</i>
-      <i p="madsrdf">http://www.loc.gov/mads/rdf/v1#</i>
-      <i p="rdf">http://www.w3.org/1999/02/22-rdf-syntax-ns#</i>
-      <i p="rdfs">http://www.w3.org/2000/01/rdf-schema#</i>
-      <i p="xml">http://www.w3.org/XML/1998/namespace</i>
-      <i p="xsd">http://www.w3.org/2001/XMLSchema#</i>
+<g xml:id="d1">
+   <c xml:id="d1">
+      <i p="bf" xml:id="d1e2">http://id.loc.gov/ontologies/bibframe/</i>
+      <i p="bflc" xml:id="d1e12">http://id.loc.gov/ontologies/bflc/</i>
+      <i p="madsrdf" xml:id="d1e22">http://www.loc.gov/mads/rdf/v1#</i>
+      <i p="rdf" xml:id="d1e32">http://www.w3.org/1999/02/22-rdf-syntax-ns#</i>
+      <i p="rdfs" xml:id="d1e42">http://www.w3.org/2000/01/rdf-schema#</i>
+      <i p="xml" xml:id="d1e52">http://www.w3.org/XML/1998/namespace</i>
+      <i p="xsd" xml:id="d1e62">http://www.w3.org/2001/XMLSchema#</i>
    </c>
-   <t>
-      <s>http://id.loc.gov/authorities/names/n00020514</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+   <t xml:id="d1e72">
+      <s xml:id="d1e72">http://id.loc.gov/authorities/names/n00020514</s>
+      <p xml:id="d1e78">
+         <p xml:id="d1e83">
+            <v xml:id="d1e83">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e83">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Bible. Vulgate. 1454.</l>
+         <p xml:id="d1e97">
+            <v xml:id="d1e97">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e97" d="xs:string">Bible. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/title30MarcKey</v>
-            <l d="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</l>
+         <p xml:id="d1e112">
+            <v xml:id="d1e112">http://id.loc.gov/ontologies/bflc/title30MarcKey</v>
+            <l xml:id="d1e112" d="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/title30MatchKey</v>
-            <l d="xs:string">Bible. Vulgate. 1454.</l>
+         <p xml:id="d1e127">
+            <v xml:id="d1e127">http://id.loc.gov/ontologies/bflc/title30MatchKey</v>
+            <l xml:id="d1e127" d="xs:string">Bible. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/titleSortKey</v>
-            <l d="xs:string">Bible. Vulgate. 1454.</l>
+         <p xml:id="d1e143">
+            <v xml:id="d1e143">http://id.loc.gov/ontologies/bflc/titleSortKey</v>
+            <l xml:id="d1e143" d="xs:string">Bible. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/mainTitle</v>
-            <l d="xs:string">Bible</l>
-         </p>
-      </p>
-   </t>
-   <t>
-      <s>http://id.loc.gov/authorities/names/n50034916</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Agent</o>
-         </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Person</o>
-         </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l xml:lang="en" d="xs:string">Gutenberg, Johann, 1397?-1468,</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/name00MarcKey</v>
-            <l d="xs:string">7001 $aGutenberg, Johann,$d1397?-1468,$eprinter.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/name00MatchKey</v>
-            <l d="xs:string">Gutenberg, Johann, 1397?-1468,</l>
+         <p xml:id="d1e158">
+            <v xml:id="d1e158">http://id.loc.gov/ontologies/bibframe/mainTitle</v>
+            <l xml:id="d1e158" d="xs:string">Bible</l>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/vocabulary/countries/gw</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Place</o>
+   <t xml:id="d1e166">
+      <s xml:id="d1e166">http://id.loc.gov/authorities/names/n50034916</s>
+      <p xml:id="d1e172">
+         <p xml:id="d1e177">
+            <v xml:id="d1e177">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e177">http://id.loc.gov/ontologies/bibframe/Agent</o>
+         </p>
+         <p xml:id="d1e184">
+            <v xml:id="d1e184">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e184">http://id.loc.gov/ontologies/bibframe/Person</o>
+         </p>
+         <p xml:id="d1e198">
+            <v xml:id="d1e198">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e198" xml:lang="en" d="xs:string">Gutenberg, Johann, 1397?-1468,</l>
+         </p>
+         <p xml:id="d1e215">
+            <v xml:id="d1e215">http://id.loc.gov/ontologies/bflc/name00MarcKey</v>
+            <l xml:id="d1e215" d="xs:string">7001 $aGutenberg, Johann,$d1397?-1468,$eprinter.</l>
+         </p>
+         <p xml:id="d1e230">
+            <v xml:id="d1e230">http://id.loc.gov/ontologies/bflc/name00MatchKey</v>
+            <l xml:id="d1e230" d="xs:string">Gutenberg, Johann, 1397?-1468,</l>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/vocabulary/issuance/mono</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Issuance</o>
+   <t xml:id="d1e238">
+      <s xml:id="d1e238">http://id.loc.gov/vocabulary/countries/gw</s>
+      <p xml:id="d1e244">
+         <p xml:id="d1e249">
+            <v xml:id="d1e249">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e249">http://id.loc.gov/ontologies/bibframe/Place</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/vocabulary/languages/lat</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Language</o>
+   <t xml:id="d1e256">
+      <s xml:id="d1e256">http://id.loc.gov/vocabulary/issuance/mono</s>
+      <p xml:id="d1e262">
+         <p xml:id="d1e267">
+            <v xml:id="d1e267">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e267">http://id.loc.gov/ontologies/bibframe/Issuance</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/vocabulary/organizations/dlc</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Source</o>
+   <t xml:id="d1e275">
+      <s xml:id="d1e275">http://id.loc.gov/vocabulary/languages/lat</s>
+      <p xml:id="d1e281">
+         <p xml:id="d1e286">
+            <v xml:id="d1e286">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e286">http://id.loc.gov/ontologies/bibframe/Language</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/vocabulary/relators/prt</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Role</o>
-         </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">printer.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/relatorMatchKey</v>
-            <l d="xs:string">printer</l>
+   <t xml:id="d1e293">
+      <s xml:id="d1e293">http://id.loc.gov/vocabulary/organizations/dlc</s>
+      <p xml:id="d1e299">
+         <p xml:id="d1e304">
+            <v xml:id="d1e304">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e304">http://id.loc.gov/ontologies/bibframe/Source</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Instance</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+   <t xml:id="d1e311">
+      <s xml:id="d1e311">http://id.loc.gov/vocabulary/relators/prt</s>
+      <p xml:id="d1e317">
+         <p xml:id="d1e322">
+            <v xml:id="d1e322">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e322">http://id.loc.gov/ontologies/bibframe/Role</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Biblia latina.</l>
+         <p xml:id="d1e336">
+            <v xml:id="d1e336">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e336" d="xs:string">printer.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e351">
+            <v xml:id="d1e351">http://id.loc.gov/ontologies/bflc/relatorMatchKey</v>
+            <l xml:id="d1e351" d="xs:string">printer</l>
+         </p>
+      </p>
+   </t>
+   <t xml:id="d1e359">
+      <s xml:id="d1e359">https://metadatafram.es/3391099#Instance</s>
+      <p xml:id="d1e365">
+         <p xml:id="d1e370">
+            <v xml:id="d1e370">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e370">http://id.loc.gov/ontologies/bibframe/Instance</o>
+         </p>
+         <p xml:id="d1e384">
+            <v xml:id="d1e384">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e384" d="xs:string">Biblia latina.</l>
+         </p>
+         <p xml:id="d1e399">
+            <v xml:id="d1e399">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e399">
                <b r="_:d1e400"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e512">
+            <v xml:id="d1e512">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e512">
                <b r="_:d1e513"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e625">
+            <v xml:id="d1e625">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e625">
                <b r="_:d1e626"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e738">
+            <v xml:id="d1e738">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e738">
                <b r="_:d1e739"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e851">
+            <v xml:id="d1e851">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e851">
                <b r="_:d1e852"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/indexedIn</v>
-            <o>
+         <p xml:id="d1e964">
+            <v xml:id="d1e964">http://id.loc.gov/ontologies/bflc/indexedIn</v>
+            <o xml:id="d1e964">
                <b r="_:d1e965"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/dimensions</v>
-            <l d="xs:string">(fol.)</l>
+         <p xml:id="d1e1084">
+            <v xml:id="d1e1084">http://id.loc.gov/ontologies/bibframe/dimensions</v>
+            <l xml:id="d1e1084" d="xs:string">(fol.)</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/extent</v>
-            <o>
+         <p xml:id="d1e1100">
+            <v xml:id="d1e1100">http://id.loc.gov/ontologies/bibframe/extent</v>
+            <o xml:id="d1e1100">
                <b r="_:d1e1101"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
-            <o>
+         <p xml:id="d1e1140">
+            <v xml:id="d1e1140">http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
+            <o xml:id="d1e1140">
                <b r="_:d1e1141"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
-            <o>
+         <p xml:id="d1e1213">
+            <v xml:id="d1e1213">http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
+            <o xml:id="d1e1213">
                <b r="_:d1e1214"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/instanceOf</v>
-            <o>https://metadatafram.es/3391099#Work</o>
+         <p xml:id="d1e1253">
+            <v xml:id="d1e1253">http://id.loc.gov/ontologies/bibframe/instanceOf</v>
+            <o xml:id="d1e1253">https://metadatafram.es/3391099#Work</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/issuance</v>
-            <o>http://id.loc.gov/vocabulary/issuance/mono</o>
+         <p xml:id="d1e1267">
+            <v xml:id="d1e1267">http://id.loc.gov/ontologies/bibframe/issuance</v>
+            <o xml:id="d1e1267">http://id.loc.gov/vocabulary/issuance/mono</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e1280">
+            <v xml:id="d1e1280">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e1280">
                <b r="_:d1e1281"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/provisionActivity</v>
-            <o>
+         <p xml:id="d1e1320">
+            <v xml:id="d1e1320">http://id.loc.gov/ontologies/bibframe/provisionActivity</v>
+            <o xml:id="d1e1320">
                <b r="_:d1e1321"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/provisionActivity</v>
-            <o>
+         <p xml:id="d1e1378">
+            <v xml:id="d1e1378">http://id.loc.gov/ontologies/bibframe/provisionActivity</v>
+            <o xml:id="d1e1378">
                <b r="_:d1e1379"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/provisionActivityStatement</v>
-            <l d="xs:string">[Mainz : Johann Gutenberg, ca. 1454]</l>
+         <p xml:id="d1e1505">
+            <v xml:id="d1e1505">http://id.loc.gov/ontologies/bibframe/provisionActivityStatement</v>
+            <l xml:id="d1e1505" d="xs:string">[Mainz : Johann Gutenberg, ca. 1454]</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e1521">
+            <v xml:id="d1e1521">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e1521">
                <b r="_:d1e1522"/>
             </o>
          </p>
       </p>
    </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Item856-33</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Item</o>
+   <t xml:id="d1e1584">
+      <s xml:id="d1e1584">https://metadatafram.es/3391099#Item856-33</s>
+      <p xml:id="d1e1590">
+         <p xml:id="d1e1595">
+            <v xml:id="d1e1595">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1595">http://id.loc.gov/ontologies/bibframe/Item</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/electronicLocator</v>
-            <o>
+         <p xml:id="d1e1609">
+            <v xml:id="d1e1609">http://id.loc.gov/ontologies/bibframe/electronicLocator</v>
+            <o xml:id="d1e1609">
                <b r="_:d1e1610"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/itemOf</v>
-            <o>https://metadatafram.es/3391099#Instance856-33</o>
+         <p xml:id="d1e1687">
+            <v xml:id="d1e1687">http://id.loc.gov/ontologies/bibframe/itemOf</v>
+            <o xml:id="d1e1687">https://metadatafram.es/3391099#Instance856-33</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Work130-10</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Work</o>
+   <t xml:id="d1e1693">
+      <s xml:id="d1e1693">https://metadatafram.es/3391099#Work130-10</s>
+      <p xml:id="d1e1699">
+         <p xml:id="d1e1704">
+            <v xml:id="d1e1704">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1704">http://id.loc.gov/ontologies/bibframe/Work</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Bible. Vulgate. 1454.</l>
+         <p xml:id="d1e1718">
+            <v xml:id="d1e1718">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1718" d="xs:string">Bible. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/originDate</v>
-            <l d="xs:integer">1454</l>
+         <p xml:id="d1e1733">
+            <v xml:id="d1e1733">http://id.loc.gov/ontologies/bibframe/originDate</v>
+            <l xml:id="d1e1733" d="xs:integer">1454</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>http://id.loc.gov/authorities/names/n00020514</o>
+         <p xml:id="d1e1748">
+            <v xml:id="d1e1748">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e1748">http://id.loc.gov/authorities/names/n00020514</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/version</v>
-            <l d="xs:string">Vulgate</l>
-         </p>
-      </p>
-   </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Work740-31</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Work</o>
-         </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Gutenberg Bible.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>http://id.loc.gov/authorities/names/n82109028</o>
+         <p xml:id="d1e1762">
+            <v xml:id="d1e1762">http://id.loc.gov/ontologies/bibframe/version</v>
+            <l xml:id="d1e1762" d="xs:string">Vulgate</l>
          </p>
       </p>
    </t>
-   <t>
-      <s>http://id.loc.gov/authorities/names/n82109028</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+   <t xml:id="d1e1770">
+      <s xml:id="d1e1770">https://metadatafram.es/3391099#Work740-31</s>
+      <p xml:id="d1e1776">
+         <p xml:id="d1e1781">
+            <v xml:id="d1e1781">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1781">http://id.loc.gov/ontologies/bibframe/Work</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Bible. Latin. Vulgate. 1454.</l>
+         <p xml:id="d1e1795">
+            <v xml:id="d1e1795">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1795" d="xs:string">Gutenberg Bible.</l>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Gutenberg Bible.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/title30MarcKey</v>
-            <l d="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/title30MatchKey</v>
-            <l d="xs:string">Bible. Latin. Vulgate. 1454.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/titleSortKey</v>
-            <l d="xs:string">Bible. Latin. Vulgate. 1454.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/titleSortKey</v>
-            <l d="xs:string">Gutenberg Bible.</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/mainTitle</v>
-            <l d="xs:string">Bible</l>
-         </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/mainTitle</v>
-            <l d="xs:string">Gutenberg Bible</l>
+         <p xml:id="d1e1810">
+            <v xml:id="d1e1810">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e1810">http://id.loc.gov/authorities/names/n82109028</o>
          </p>
       </p>
    </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Instance856-33</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Electronic</o>
+   <t xml:id="d1e1816">
+      <s xml:id="d1e1816">http://id.loc.gov/authorities/names/n82109028</s>
+      <p xml:id="d1e1822">
+         <p xml:id="d1e1827">
+            <v xml:id="d1e1827">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1827">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+         <p xml:id="d1e1841">
+            <v xml:id="d1e1841">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1841" d="xs:string">Bible. Latin. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/hasItem</v>
-            <o>https://metadatafram.es/3391099#Item856-33</o>
+         <p xml:id="d1e1849">
+            <v xml:id="d1e1849">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1849" d="xs:string">Gutenberg Bible.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/instanceOf</v>
-            <o>https://metadatafram.es/3391099#Work</o>
+         <p xml:id="d1e1864">
+            <v xml:id="d1e1864">http://id.loc.gov/ontologies/bflc/title30MarcKey</v>
+            <l xml:id="d1e1864" d="xs:string">1300 $aBible.$lLatin.$sVulgate.$f1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e1879">
+            <v xml:id="d1e1879">http://id.loc.gov/ontologies/bflc/title30MatchKey</v>
+            <l xml:id="d1e1879" d="xs:string">Bible. Latin. Vulgate. 1454.</l>
+         </p>
+         <p xml:id="d1e1895">
+            <v xml:id="d1e1895">http://id.loc.gov/ontologies/bflc/titleSortKey</v>
+            <l xml:id="d1e1895" d="xs:string">Bible. Latin. Vulgate. 1454.</l>
+         </p>
+         <p xml:id="d1e1903">
+            <v xml:id="d1e1903">http://id.loc.gov/ontologies/bflc/titleSortKey</v>
+            <l xml:id="d1e1903" d="xs:string">Gutenberg Bible.</l>
+         </p>
+         <p xml:id="d1e1918">
+            <v xml:id="d1e1918">http://id.loc.gov/ontologies/bibframe/mainTitle</v>
+            <l xml:id="d1e1918" d="xs:string">Bible</l>
+         </p>
+         <p xml:id="d1e1926">
+            <v xml:id="d1e1926">http://id.loc.gov/ontologies/bibframe/mainTitle</v>
+            <l xml:id="d1e1926" d="xs:string">Gutenberg Bible</l>
+         </p>
+      </p>
+   </t>
+   <t xml:id="d1e1934">
+      <s xml:id="d1e1934">https://metadatafram.es/3391099#Instance856-33</s>
+      <p xml:id="d1e1940">
+         <p xml:id="d1e1945">
+            <v xml:id="d1e1945">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1945">http://id.loc.gov/ontologies/bibframe/Electronic</o>
+         </p>
+         <p xml:id="d1e1952">
+            <v xml:id="d1e1952">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1952">http://id.loc.gov/ontologies/bibframe/Instance</o>
+         </p>
+         <p xml:id="d1e1966">
+            <v xml:id="d1e1966">http://id.loc.gov/ontologies/bibframe/hasItem</v>
+            <o xml:id="d1e1966">https://metadatafram.es/3391099#Item856-33</o>
+         </p>
+         <p xml:id="d1e1979">
+            <v xml:id="d1e1979">http://id.loc.gov/ontologies/bibframe/instanceOf</v>
+            <o xml:id="d1e1979">https://metadatafram.es/3391099#Work</o>
+         </p>
+         <p xml:id="d1e1992">
+            <v xml:id="d1e1992">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e1992">
                <b r="_:d1e1993"/>
             </o>
          </p>
       </p>
    </t>
-   <t>
-      <s>https://metadatafram.es/3391099#Work</s>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Text</o>
+   <t xml:id="d1e2055">
+      <s xml:id="d1e2055">https://metadatafram.es/3391099#Work</s>
+      <p xml:id="d1e2061">
+         <p xml:id="d1e2066">
+            <v xml:id="d1e2066">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2066">http://id.loc.gov/ontologies/bibframe/Text</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Work</o>
+         <p xml:id="d1e2073">
+            <v xml:id="d1e2073">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2073">http://id.loc.gov/ontologies/bibframe/Work</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/test</v>
-            <l d="rdf:HTML">&lt;html&gt;&lt;head&gt;&lt;title&gt;Test&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Test&lt;/body&gt;&lt;/html&gt;</l>
+         <p xml:id="d1e2087">
+            <v xml:id="d1e2087">http://id.loc.gov/ontologies/bibframe/test</v>
+            <l xml:id="d1e2087" d="rdf:HTML">&lt;html&gt;&lt;head&gt;&lt;title&gt;Test&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Test&lt;/body&gt;&lt;/html&gt;</l>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Bible. Latin. Vulgate. 1454.</l>
+         <p xml:id="d1e2108">
+            <v xml:id="d1e2108">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2108" d="xs:string">Bible. Latin. Vulgate. 1454.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/adminMetadata</v>
-            <o>
+         <p xml:id="d1e2123">
+            <v xml:id="d1e2123">http://id.loc.gov/ontologies/bibframe/adminMetadata</v>
+            <o xml:id="d1e2123">
                <b r="_:d1e2124"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/contribution</v>
-            <o>
+         <p xml:id="d1e2493">
+            <v xml:id="d1e2493">http://id.loc.gov/ontologies/bibframe/contribution</v>
+            <o xml:id="d1e2493">
                <b r="_:d1e2494"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/hasInstance</v>
-            <o>https://metadatafram.es/3391099#Instance</o>
+         <p xml:id="d1e2544">
+            <v xml:id="d1e2544">http://id.loc.gov/ontologies/bibframe/hasInstance</v>
+            <o xml:id="d1e2544">https://metadatafram.es/3391099#Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/hasInstance</v>
-            <o>https://metadatafram.es/3391099#Instance856-33</o>
+         <p xml:id="d1e2550">
+            <v xml:id="d1e2550">http://id.loc.gov/ontologies/bibframe/hasInstance</v>
+            <o xml:id="d1e2550">https://metadatafram.es/3391099#Instance856-33</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/hasPart</v>
-            <o>https://metadatafram.es/3391099#Work740-31</o>
+         <p xml:id="d1e2563">
+            <v xml:id="d1e2563">http://id.loc.gov/ontologies/bibframe/hasPart</v>
+            <o xml:id="d1e2563">https://metadatafram.es/3391099#Work740-31</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/language</v>
-            <o>
+         <p xml:id="d1e2577">
+            <v xml:id="d1e2577">http://id.loc.gov/ontologies/bibframe/language</v>
+            <o xml:id="d1e2577">
                <b r="_:d1e2578"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/language</v>
-            <o>http://id.loc.gov/vocabulary/languages/lat</o>
+         <p xml:id="d1e2610">
+            <v xml:id="d1e2610">http://id.loc.gov/ontologies/bibframe/language</v>
+            <o xml:id="d1e2610">http://id.loc.gov/vocabulary/languages/lat</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/originDate</v>
-            <l d="xs:integer">1454</l>
+         <p xml:id="d1e2623">
+            <v xml:id="d1e2623">http://id.loc.gov/ontologies/bibframe/originDate</v>
+            <l xml:id="d1e2623" d="xs:integer">1454</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>http://id.loc.gov/authorities/names/n82109028</o>
+         <p xml:id="d1e2638">
+            <v xml:id="d1e2638">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e2638">http://id.loc.gov/authorities/names/n82109028</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/translationOf</v>
-            <o>https://metadatafram.es/3391099#Work130-10</o>
+         <p xml:id="d1e2651">
+            <v xml:id="d1e2651">http://id.loc.gov/ontologies/bibframe/translationOf</v>
+            <o xml:id="d1e2651">https://metadatafram.es/3391099#Work130-10</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/version</v>
-            <l d="xs:string">Vulgate</l>
+         <p xml:id="d1e2665">
+            <v xml:id="d1e2665">http://id.loc.gov/ontologies/bibframe/version</v>
+            <l xml:id="d1e2665" d="xs:string">Vulgate</l>
          </p>
       </p>
    </t>
    <b xml:id="_:d1e400">
-      <s xml:id="_:d1e401"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e401"/>
+      <p xml:id="d1e403">
+         <p xml:id="d1e408">
+            <v xml:id="d1e408">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e408">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e422">
+            <v xml:id="d1e422">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e422">
                <b r="_:d1e423"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e477">
+            <v xml:id="d1e477">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e477">
                <b r="_:d1e478"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e423">
-      <s xml:id="_:d1e424"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e424"/>
+      <p xml:id="d1e426">
+         <p xml:id="d1e431">
+            <v xml:id="d1e431">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e431">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:integer">4201</l>
+         <p xml:id="d1e445">
+            <v xml:id="d1e445">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e445" d="xs:integer">4201</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e460">
+            <v xml:id="d1e460">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e460" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e478">
-      <s xml:id="_:d1e479"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e479"/>
+      <p xml:id="d1e481">
+         <p xml:id="d1e486">
+            <v xml:id="d1e486">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e486">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">GW</l>
+         <p xml:id="d1e500">
+            <v xml:id="d1e500">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e500" d="xs:string">GW</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e513">
-      <s xml:id="_:d1e514"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e514"/>
+      <p xml:id="d1e516">
+         <p xml:id="d1e521">
+            <v xml:id="d1e521">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e521">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e535">
+            <v xml:id="d1e535">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e535">
                <b r="_:d1e536"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e590">
+            <v xml:id="d1e590">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e590">
                <b r="_:d1e591"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e536">
-      <s xml:id="_:d1e537"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e537"/>
+      <p xml:id="d1e539">
+         <p xml:id="d1e544">
+            <v xml:id="d1e544">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e544">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">ib00526000</l>
+         <p xml:id="d1e558">
+            <v xml:id="d1e558">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e558" d="xs:string">ib00526000</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e573">
+            <v xml:id="d1e573">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e573" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e591">
-      <s xml:id="_:d1e592"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e592"/>
+      <p xml:id="d1e594">
+         <p xml:id="d1e599">
+            <v xml:id="d1e599">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e599">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">ISTC (CD-ROM, 1997 ed.)</l>
+         <p xml:id="d1e613">
+            <v xml:id="d1e613">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e613" d="xs:string">ISTC (CD-ROM, 1997 ed.)</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e626">
-      <s xml:id="_:d1e627"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e627"/>
+      <p xml:id="d1e629">
+         <p xml:id="d1e634">
+            <v xml:id="d1e634">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e634">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e648">
+            <v xml:id="d1e648">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e648">
                <b r="_:d1e649"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e703">
+            <v xml:id="d1e703">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e703">
                <b r="_:d1e704"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e649">
-      <s xml:id="_:d1e650"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e650"/>
+      <p xml:id="d1e652">
+         <p xml:id="d1e657">
+            <v xml:id="d1e657">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e657">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">I, 17 (IC.55)</l>
+         <p xml:id="d1e671">
+            <v xml:id="d1e671">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e671" d="xs:string">I, 17 (IC.55)</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e686">
+            <v xml:id="d1e686">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e686" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e704">
-      <s xml:id="_:d1e705"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e705"/>
+      <p xml:id="d1e707">
+         <p xml:id="d1e712">
+            <v xml:id="d1e712">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e712">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">BM 15th cent.</l>
+         <p xml:id="d1e726">
+            <v xml:id="d1e726">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e726" d="xs:string">BM 15th cent.</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e739">
-      <s xml:id="_:d1e740"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e740"/>
+      <p xml:id="d1e742">
+         <p xml:id="d1e747">
+            <v xml:id="d1e747">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e747">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e761">
+            <v xml:id="d1e761">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e761">
                <b r="_:d1e762"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e816">
+            <v xml:id="d1e816">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e816">
                <b r="_:d1e817"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e762">
-      <s xml:id="_:d1e763"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e763"/>
+      <p xml:id="d1e765">
+         <p xml:id="d1e770">
+            <v xml:id="d1e770">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e770">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:integer">3031</l>
+         <p xml:id="d1e784">
+            <v xml:id="d1e784">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e784" d="xs:integer">3031</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e799">
+            <v xml:id="d1e799">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e799" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e817">
-      <s xml:id="_:d1e818"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e818"/>
+      <p xml:id="d1e820">
+         <p xml:id="d1e825">
+            <v xml:id="d1e825">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e825">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Hain</l>
+         <p xml:id="d1e839">
+            <v xml:id="d1e839">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e839" d="xs:string">Hain</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e852">
-      <s xml:id="_:d1e853"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e853"/>
+      <p xml:id="d1e855">
+         <p xml:id="d1e860">
+            <v xml:id="d1e860">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e860">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e874">
+            <v xml:id="d1e874">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e874">
                <b r="_:d1e875"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e929">
+            <v xml:id="d1e929">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e929">
                <b r="_:d1e930"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e875">
-      <s xml:id="_:d1e876"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e876"/>
+      <p xml:id="d1e878">
+         <p xml:id="d1e883">
+            <v xml:id="d1e883">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e883">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">B-526</l>
+         <p xml:id="d1e897">
+            <v xml:id="d1e897">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e897" d="xs:string">B-526</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e912">
+            <v xml:id="d1e912">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e912" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e930">
-      <s xml:id="_:d1e931"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e931"/>
+      <p xml:id="d1e933">
+         <p xml:id="d1e938">
+            <v xml:id="d1e938">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e938">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Goff</l>
+         <p xml:id="d1e952">
+            <v xml:id="d1e952">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e952" d="xs:string">Goff</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e965">
-      <s xml:id="_:d1e966"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Instance</o>
+      <s xml:id="d1e966"/>
+      <p xml:id="d1e968">
+         <p xml:id="d1e973">
+            <v xml:id="d1e973">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e973">http://id.loc.gov/ontologies/bibframe/Instance</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e987">
+            <v xml:id="d1e987">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e987">
                <b r="_:d1e988"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/title</v>
-            <o>
+         <p xml:id="d1e1042">
+            <v xml:id="d1e1042">http://id.loc.gov/ontologies/bibframe/title</v>
+            <o xml:id="d1e1042">
                <b r="_:d1e1043"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e988">
-      <s xml:id="_:d1e989"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e989"/>
+      <p xml:id="d1e991">
+         <p xml:id="d1e996">
+            <v xml:id="d1e996">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e996">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:integer">56</l>
+         <p xml:id="d1e1010">
+            <v xml:id="d1e1010">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1010" d="xs:integer">56</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/noteType</v>
-            <l d="xs:string">Location</l>
+         <p xml:id="d1e1025">
+            <v xml:id="d1e1025">http://id.loc.gov/ontologies/bibframe/noteType</v>
+            <l xml:id="d1e1025" d="xs:string">Location</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1043">
-      <s xml:id="_:d1e1044"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e1044"/>
+      <p xml:id="d1e1046">
+         <p xml:id="d1e1051">
+            <v xml:id="d1e1051">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1051">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Procter</l>
+         <p xml:id="d1e1065">
+            <v xml:id="d1e1065">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1065" d="xs:string">Procter</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1101">
-      <s xml:id="_:d1e1102"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Extent</o>
+      <s xml:id="d1e1102"/>
+      <p xml:id="d1e1104">
+         <p xml:id="d1e1109">
+            <v xml:id="d1e1109">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1109">http://id.loc.gov/ontologies/bibframe/Extent</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">2 v.</l>
+         <p xml:id="d1e1123">
+            <v xml:id="d1e1123">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1123" d="xs:string">2 v.</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1141">
-      <s xml:id="_:d1e1142"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Local</o>
+      <s xml:id="d1e1142"/>
+      <p xml:id="d1e1144">
+         <p xml:id="d1e1149">
+            <v xml:id="d1e1149">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1149">http://id.loc.gov/ontologies/bibframe/Local</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/source</v>
-            <o>
+         <p xml:id="d1e1163">
+            <v xml:id="d1e1163">http://id.loc.gov/ontologies/bibframe/source</v>
+            <o xml:id="d1e1163">
                <b r="_:d1e1164"/>
             </o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
-            <l d="xs:string">ocn685392767</l>
+         <p xml:id="d1e1203">
+            <v xml:id="d1e1203">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
+            <l xml:id="d1e1203" d="xs:string">ocn685392767</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1164">
-      <s xml:id="_:d1e1165"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Source</o>
+      <s xml:id="d1e1165"/>
+      <p xml:id="d1e1167">
+         <p xml:id="d1e1172">
+            <v xml:id="d1e1172">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1172">http://id.loc.gov/ontologies/bibframe/Source</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">OCoLC</l>
+         <p xml:id="d1e1186">
+            <v xml:id="d1e1186">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1186" d="xs:string">OCoLC</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1214">
-      <s xml:id="_:d1e1215"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Local</o>
+      <s xml:id="d1e1215"/>
+      <p xml:id="d1e1217">
+         <p xml:id="d1e1222">
+            <v xml:id="d1e1222">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1222">http://id.loc.gov/ontologies/bibframe/Local</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
-            <l d="xs:integer">3391099</l>
+         <p xml:id="d1e1236">
+            <v xml:id="d1e1236">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
+            <l xml:id="d1e1236" d="xs:integer">3391099</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1281">
-      <s xml:id="_:d1e1282"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e1282"/>
+      <p xml:id="d1e1284">
+         <p xml:id="d1e1289">
+            <v xml:id="d1e1289">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1289">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Commonly known as the Gutenberg Bible.</l>
+         <p xml:id="d1e1303">
+            <v xml:id="d1e1303">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1303" d="xs:string">Commonly known as the Gutenberg Bible.</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1321">
-      <s xml:id="_:d1e1322"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/ProvisionActivity</o>
+      <s xml:id="d1e1322"/>
+      <p xml:id="d1e1324">
+         <p xml:id="d1e1329">
+            <v xml:id="d1e1329">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1329">http://id.loc.gov/ontologies/bibframe/ProvisionActivity</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Publication</o>
+         <p xml:id="d1e1336">
+            <v xml:id="d1e1336">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1336">http://id.loc.gov/ontologies/bibframe/Publication</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/date</v>
-            <l d="http://id.loc.gov/datatypes/edtf">1454</l>
+         <p xml:id="d1e1350">
+            <v xml:id="d1e1350">http://id.loc.gov/ontologies/bibframe/date</v>
+            <l xml:id="d1e1350" d="http://id.loc.gov/datatypes/edtf">1454</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/place</v>
-            <o>http://id.loc.gov/vocabulary/countries/gw</o>
+         <p xml:id="d1e1370">
+            <v xml:id="d1e1370">http://id.loc.gov/ontologies/bibframe/place</v>
+            <o xml:id="d1e1370">http://id.loc.gov/vocabulary/countries/gw</o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1379">
-      <s xml:id="_:d1e1380"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/ProvisionActivity</o>
+      <s xml:id="d1e1380"/>
+      <p xml:id="d1e1382">
+         <p xml:id="d1e1387">
+            <v xml:id="d1e1387">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1387">http://id.loc.gov/ontologies/bibframe/ProvisionActivity</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Publication</o>
+         <p xml:id="d1e1394">
+            <v xml:id="d1e1394">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1394">http://id.loc.gov/ontologies/bibframe/Publication</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/agent</v>
-            <o>
+         <p xml:id="d1e1408">
+            <v xml:id="d1e1408">http://id.loc.gov/ontologies/bibframe/agent</v>
+            <o xml:id="d1e1408">
                <b r="_:d1e1409"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/date</v>
-            <l d="xs:string">ca. 1454</l>
+         <p xml:id="d1e1448">
+            <v xml:id="d1e1448">http://id.loc.gov/ontologies/bibframe/date</v>
+            <l xml:id="d1e1448" d="xs:string">ca. 1454</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/place</v>
-            <o>
+         <p xml:id="d1e1463">
+            <v xml:id="d1e1463">http://id.loc.gov/ontologies/bibframe/place</v>
+            <o xml:id="d1e1463">
                <b r="_:d1e1464"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1409">
-      <s xml:id="_:d1e1410"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Agent</o>
+      <s xml:id="d1e1410"/>
+      <p xml:id="d1e1412">
+         <p xml:id="d1e1417">
+            <v xml:id="d1e1417">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1417">http://id.loc.gov/ontologies/bibframe/Agent</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Johann Gutenberg</l>
+         <p xml:id="d1e1431">
+            <v xml:id="d1e1431">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1431" d="xs:string">Johann Gutenberg</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1464">
-      <s xml:id="_:d1e1465"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Place</o>
+      <s xml:id="d1e1465"/>
+      <p xml:id="d1e1467">
+         <p xml:id="d1e1472">
+            <v xml:id="d1e1472">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1472">http://id.loc.gov/ontologies/bibframe/Place</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Mainz</l>
+         <p xml:id="d1e1486">
+            <v xml:id="d1e1486">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1486" d="xs:string">Mainz</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1522">
-      <s xml:id="_:d1e1523"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e1523"/>
+      <p xml:id="d1e1525">
+         <p xml:id="d1e1530">
+            <v xml:id="d1e1530">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1530">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Biblia latina.</l>
+         <p xml:id="d1e1544">
+            <v xml:id="d1e1544">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1544" d="xs:string">Biblia latina.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/titleSortKey</v>
-            <l d="xs:string">Biblia latina.</l>
+         <p xml:id="d1e1559">
+            <v xml:id="d1e1559">http://id.loc.gov/ontologies/bflc/titleSortKey</v>
+            <l xml:id="d1e1559" d="xs:string">Biblia latina.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/mainTitle</v>
-            <l d="xs:string">Biblia latina</l>
+         <p xml:id="d1e1574">
+            <v xml:id="d1e1574">http://id.loc.gov/ontologies/bibframe/mainTitle</v>
+            <l xml:id="d1e1574" d="xs:string">Biblia latina</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1610">
-      <s xml:id="_:d1e1611"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://www.w3.org/2000/01/rdf-schema#Resource</o>
+      <s xml:id="d1e1611"/>
+      <p xml:id="d1e1613">
+         <p xml:id="d1e1618">
+            <v xml:id="d1e1618">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1618">http://www.w3.org/2000/01/rdf-schema#Resource</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/locator</v>
-            <o>http://beinecke.library.yale.edu/dl_crosscollex/callnumSRCHXC.asp?WC=N&amp;SS=N&amp;CN=ZZi_56</o>
+         <p xml:id="d1e1632">
+            <v xml:id="d1e1632">http://id.loc.gov/ontologies/bflc/locator</v>
+            <o xml:id="d1e1632">http://beinecke.library.yale.edu/dl_crosscollex/callnumSRCHXC.asp?WC=N&amp;SS=N&amp;CN=ZZi_56</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/note</v>
-            <o>
+         <p xml:id="d1e1645">
+            <v xml:id="d1e1645">http://id.loc.gov/ontologies/bibframe/note</v>
+            <o xml:id="d1e1645">
                <b r="_:d1e1646"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1646">
-      <s xml:id="_:d1e1647"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Note</o>
+      <s xml:id="d1e1647"/>
+      <p xml:id="d1e1649">
+         <p xml:id="d1e1654">
+            <v xml:id="d1e1654">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e1654">http://id.loc.gov/ontologies/bibframe/Note</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">View a selection of digital images in the Beinecke Library's Digital Images Online database</l>
+         <p xml:id="d1e1668">
+            <v xml:id="d1e1668">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e1668" d="xs:string">View a selection of digital images in the Beinecke Library's Digital Images Online database</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e1993">
-      <s xml:id="_:d1e1994"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Title</o>
+      <s xml:id="d1e1994"/>
+      <p xml:id="d1e1996">
+         <p xml:id="d1e2001">
+            <v xml:id="d1e2001">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2001">http://id.loc.gov/ontologies/bibframe/Title</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Biblia latina.</l>
+         <p xml:id="d1e2015">
+            <v xml:id="d1e2015">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2015" d="xs:string">Biblia latina.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/titleSortKey</v>
-            <l d="xs:string">Biblia latina.</l>
+         <p xml:id="d1e2030">
+            <v xml:id="d1e2030">http://id.loc.gov/ontologies/bflc/titleSortKey</v>
+            <l xml:id="d1e2030" d="xs:string">Biblia latina.</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/mainTitle</v>
-            <l d="xs:string">Biblia latina</l>
+         <p xml:id="d1e2045">
+            <v xml:id="d1e2045">http://id.loc.gov/ontologies/bibframe/mainTitle</v>
+            <l xml:id="d1e2045" d="xs:string">Biblia latina</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2124">
-      <s xml:id="_:d1e2125"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/AdminMetadata</o>
+      <s xml:id="d1e2125"/>
+      <p xml:id="d1e2127">
+         <p xml:id="d1e2132">
+            <v xml:id="d1e2132">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2132">http://id.loc.gov/ontologies/bibframe/AdminMetadata</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bflc/encodingLevel</v>
-            <o>
+         <p xml:id="d1e2146">
+            <v xml:id="d1e2146">http://id.loc.gov/ontologies/bflc/encodingLevel</v>
+            <o xml:id="d1e2146">
                <b r="_:d1e2147"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/changeDate</v>
-            <l d="xs:dateTime">2011-03-10T19:28:45</l>
+         <p xml:id="d1e2186">
+            <v xml:id="d1e2186">http://id.loc.gov/ontologies/bibframe/changeDate</v>
+            <l xml:id="d1e2186" d="xs:dateTime">2011-03-10T19:28:45</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/creationDate</v>
-            <l d="xs:date">1992-08-12</l>
+         <p xml:id="d1e2207">
+            <v xml:id="d1e2207">http://id.loc.gov/ontologies/bibframe/creationDate</v>
+            <l xml:id="d1e2207" d="xs:date">1992-08-12</l>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/descriptionConventions</v>
-            <o>
+         <p xml:id="d1e2229">
+            <v xml:id="d1e2229">http://id.loc.gov/ontologies/bibframe/descriptionConventions</v>
+            <o xml:id="d1e2229">
                <b r="_:d1e2230"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/generationProcess</v>
-            <o>
+         <p xml:id="d1e2269">
+            <v xml:id="d1e2269">http://id.loc.gov/ontologies/bibframe/generationProcess</v>
+            <o xml:id="d1e2269">
                <b r="_:d1e2270"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
-            <o>
+         <p xml:id="d1e2309">
+            <v xml:id="d1e2309">http://id.loc.gov/ontologies/bibframe/identifiedBy</v>
+            <o xml:id="d1e2309">
                <b r="_:d1e2310"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/source</v>
-            <o>
+         <p xml:id="d1e2363">
+            <v xml:id="d1e2363">http://id.loc.gov/ontologies/bibframe/source</v>
+            <o xml:id="d1e2363">
                <b r="_:d1e2364"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/source</v>
-            <o>
+         <p xml:id="d1e2403">
+            <v xml:id="d1e2403">http://id.loc.gov/ontologies/bibframe/source</v>
+            <o xml:id="d1e2403">
                <b r="_:d1e2404"/>
             </o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/status</v>
-            <o>
+         <p xml:id="d1e2450">
+            <v xml:id="d1e2450">http://id.loc.gov/ontologies/bibframe/status</v>
+            <o xml:id="d1e2450">
                <b r="_:d1e2451"/>
             </o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2147">
-      <s xml:id="_:d1e2148"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bflc/EncodingLevel</o>
+      <s xml:id="d1e2148"/>
+      <p xml:id="d1e2150">
+         <p xml:id="d1e2155">
+            <v xml:id="d1e2155">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2155">http://id.loc.gov/ontologies/bflc/EncodingLevel</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/code</v>
-            <l d="xs:integer">1</l>
+         <p xml:id="d1e2169">
+            <v xml:id="d1e2169">http://id.loc.gov/ontologies/bibframe/code</v>
+            <l xml:id="d1e2169" d="xs:integer">1</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2230">
-      <s xml:id="_:d1e2231"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/DescriptionConventions</o>
+      <s xml:id="d1e2231"/>
+      <p xml:id="d1e2233">
+         <p xml:id="d1e2238">
+            <v xml:id="d1e2238">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2238">http://id.loc.gov/ontologies/bibframe/DescriptionConventions</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/code</v>
-            <l d="xs:string">unknown</l>
+         <p xml:id="d1e2252">
+            <v xml:id="d1e2252">http://id.loc.gov/ontologies/bibframe/code</v>
+            <l xml:id="d1e2252" d="xs:string">unknown</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2270">
-      <s xml:id="_:d1e2271"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/GenerationProcess</o>
+      <s xml:id="d1e2271"/>
+      <p xml:id="d1e2273">
+         <p xml:id="d1e2278">
+            <v xml:id="d1e2278">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2278">http://id.loc.gov/ontologies/bibframe/GenerationProcess</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2017-10-10T01:00:51Z</l>
+         <p xml:id="d1e2292">
+            <v xml:id="d1e2292">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2292" d="xs:string">DLC marc2bibframe2 v1.4.0-SNAPSHOT: 2017-10-10T01:00:51Z</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2310">
-      <s xml:id="_:d1e2311"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Local</o>
+      <s xml:id="d1e2311"/>
+      <p xml:id="d1e2313">
+         <p xml:id="d1e2318">
+            <v xml:id="d1e2318">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2318">http://id.loc.gov/ontologies/bibframe/Local</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/source</v>
-            <o>http://id.loc.gov/vocabulary/organizations/dlc</o>
+         <p xml:id="d1e2332">
+            <v xml:id="d1e2332">http://id.loc.gov/ontologies/bibframe/source</v>
+            <o xml:id="d1e2332">http://id.loc.gov/vocabulary/organizations/dlc</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
-            <l d="xs:integer">3391099</l>
+         <p xml:id="d1e2345">
+            <v xml:id="d1e2345">http://www.w3.org/1999/02/22-rdf-syntax-ns#value</v>
+            <l xml:id="d1e2345" d="xs:integer">3391099</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2364">
-      <s xml:id="_:d1e2365"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Agent</o>
+      <s xml:id="d1e2365"/>
+      <p xml:id="d1e2367">
+         <p xml:id="d1e2372">
+            <v xml:id="d1e2372">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2372">http://id.loc.gov/ontologies/bibframe/Agent</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Source</o>
+         <p xml:id="d1e2379">
+            <v xml:id="d1e2379">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2379">http://id.loc.gov/ontologies/bibframe/Source</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">CtY-BR</l>
+         <p xml:id="d1e2393">
+            <v xml:id="d1e2393">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2393" d="xs:string">CtY-BR</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2404">
-      <s xml:id="_:d1e2405"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Agent</o>
+      <s xml:id="d1e2405"/>
+      <p xml:id="d1e2407">
+         <p xml:id="d1e2412">
+            <v xml:id="d1e2412">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2412">http://id.loc.gov/ontologies/bibframe/Agent</o>
          </p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Source</o>
+         <p xml:id="d1e2419">
+            <v xml:id="d1e2419">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2419">http://id.loc.gov/ontologies/bibframe/Source</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">CtY-BR</l>
+         <p xml:id="d1e2433">
+            <v xml:id="d1e2433">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2433" d="xs:string">CtY-BR</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2451">
-      <s xml:id="_:d1e2452"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Status</o>
+      <s xml:id="d1e2452"/>
+      <p xml:id="d1e2454">
+         <p xml:id="d1e2459">
+            <v xml:id="d1e2459">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2459">http://id.loc.gov/ontologies/bibframe/Status</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/code</v>
-            <l d="xs:string">c</l>
+         <p xml:id="d1e2473">
+            <v xml:id="d1e2473">http://id.loc.gov/ontologies/bibframe/code</v>
+            <l xml:id="d1e2473" d="xs:string">c</l>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2494">
-      <s xml:id="_:d1e2495"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Contribution</o>
+      <s xml:id="d1e2495"/>
+      <p xml:id="d1e2497">
+         <p xml:id="d1e2502">
+            <v xml:id="d1e2502">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2502">http://id.loc.gov/ontologies/bibframe/Contribution</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/agent</v>
-            <o>http://id.loc.gov/authorities/names/n50034916</o>
+         <p xml:id="d1e2516">
+            <v xml:id="d1e2516">http://id.loc.gov/ontologies/bibframe/agent</v>
+            <o xml:id="d1e2516">http://id.loc.gov/authorities/names/n50034916</o>
          </p>
-         <p>
-            <v>http://id.loc.gov/ontologies/bibframe/role</v>
-            <o>http://id.loc.gov/vocabulary/relators/prt</o>
+         <p xml:id="d1e2529">
+            <v xml:id="d1e2529">http://id.loc.gov/ontologies/bibframe/role</v>
+            <o xml:id="d1e2529">http://id.loc.gov/vocabulary/relators/prt</o>
          </p>
       </p>
    </b>
    <b xml:id="_:d1e2578">
-      <s xml:id="_:d1e2579"/>
-      <p>
-         <p>
-            <v>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
-            <o>http://id.loc.gov/ontologies/bibframe/Language</o>
+      <s xml:id="d1e2579"/>
+      <p xml:id="d1e2581">
+         <p xml:id="d1e2586">
+            <v xml:id="d1e2586">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</v>
+            <o xml:id="d1e2586">http://id.loc.gov/ontologies/bibframe/Language</o>
          </p>
-         <p>
-            <v>http://www.w3.org/2000/01/rdf-schema#label</v>
-            <l d="xs:string">Latin</l>
+         <p xml:id="d1e2600">
+            <v xml:id="d1e2600">http://www.w3.org/2000/01/rdf-schema#label</v>
+            <l xml:id="d1e2600" d="xs:string">Latin</l>
          </p>
       </p>
    </b>
