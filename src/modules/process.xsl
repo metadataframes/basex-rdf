@@ -10,37 +10,167 @@
     elements="*"/>
 
   <xsl:output
-    indent="no"
+    indent="yes"
     method="xml"/>
 
   <xsl:key
     match="IRIREF"
     name="ns-key"
     use="../PNAME_NS"/>
+
   <xsl:template
     match="/">
-    <triples
-      >
-      <prefixes
-        >
+    <graph>
+      <context>
         <xsl:apply-templates
           mode="directive"
           select="trigDoc/directive"/>
-      </prefixes>
+      </context>
       <xsl:apply-templates
-        select="trigDoc"/>
-    </triples>
+        select="trigDoc/block"/>
+      <xsl:sequence
+        select="
+          basex-rdf:group-bnodes(trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object)"/>
+    </graph>
   </xsl:template>
-
+  
   <xsl:template
     match="directive"
     mode="directive">
-    <iriref
+    <iri
       prefix="{substring-before(prefixID/PNAME_NS, ':')}">
       <xsl:apply-templates
         mode="directive"/>
-    </iriref>
+    </iri>
   </xsl:template>
+
+  <xsl:function
+    as="node()*"
+    name="basex-rdf:group-bnodes">
+    <xsl:param
+      as="node()*"
+      name="nodes"/>
+    <xsl:for-each-group
+      group-starting-with="descendant::*[1][self::TOKEN[. eq '[']]"
+      select="$nodes//(collection union blankNodePropertyList)">
+      <xsl:for-each
+        select="current-group()">
+        <bn
+          xml:id="{concat('_:', generate-id(.))}">          
+          <xsl:if
+            test="ancestor::collection">
+            <xsl:attribute
+              name="n"
+              select="count(../preceding-sibling::object) + 1"/>
+          </xsl:if>
+          <xsl:apply-templates
+            mode="bnode"/>
+        </bn>
+      </xsl:for-each>
+    </xsl:for-each-group>
+  </xsl:function>
+
+  <xsl:template
+    match="blankNodePropertyList"/>
+
+  <xsl:template
+    match="collection union blankNodePropertyList"
+    mode="bnode">
+    <bn
+      ref="{concat('_:', generate-id(.))}">
+      <xsl:if
+        test="ancestor::collection">
+        <xsl:attribute
+          name="n"
+          select="count(../preceding-sibling::object) + 1"/>
+      </xsl:if>
+    </bn>
+  </xsl:template>
+
+  <xsl:template
+    match="TOKEN[. eq '[']"
+    mode="bnode">
+    <s/>
+  </xsl:template>
+
+  <xsl:template
+    match="block">
+    <topic>
+      <s>
+        <xsl:apply-templates
+          select="triplesOrGraph/labelOrSubject"/>
+      </s>
+      <xsl:apply-templates
+        mode="bnode"
+        select="triplesOrGraph/predicateObjectList"/>
+    </topic>
+  </xsl:template>
+
+  <xsl:template
+    match="predicateObjectList"/>
+
+  <xsl:template
+    match="predicateObjectList"
+    mode="bnode">
+    <predicates>
+      <xsl:apply-templates
+        mode="bnode"
+        select="objectList"/>
+    </predicates>
+  </xsl:template>
+
+  <xsl:template
+    match="objectList/object"
+    mode="bnode">
+    <p>
+      <v>
+        <xsl:value-of
+          select="basex-rdf:type(../preceding-sibling::*[1][self::verb])"/>
+      </v>
+      <o>
+        <xsl:if
+          test=".//ancestor::collection">
+          <xsl:attribute
+            name="parse-type">collection</xsl:attribute>
+        </xsl:if>
+        <xsl:apply-templates
+          mode="bnode"/>
+      </o>
+    </p>
+  </xsl:template>
+
+  <xsl:template
+    match="TOKEN"
+    mode="#all">
+    <xsl:sequence
+      select="
+        if (current() eq 'a')
+        then
+          basex-rdf:type(current())
+        else
+          ()
+        "/>
+  </xsl:template>
+
+  <xsl:function
+    as="xs:anyURI"
+    name="basex-rdf:type">
+    <xsl:param
+      as="xs:string"
+      name="v"/>
+    <xsl:sequence
+      select="
+        if ($v eq 'a')
+        then
+          xs:anyURI('rdf:type')
+        else
+          xs:anyURI($v)
+        "/>
+  </xsl:function>
+
+
+
+  <!--
 
   <xsl:template
     match="triplesOrGraph">
@@ -231,6 +361,6 @@
         </xsl:comment>
       </xsl:matching-substring>
     </xsl:analyze-string>
-  </xsl:template>
+  </xsl:template>-->
 
 </xsl:stylesheet>

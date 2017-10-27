@@ -202,13 +202,8 @@ let $options :=
     <object></object>
   </options>
 return (
-  (: <results>{    
-    basex-rdf:query(    
-      basex-rdf:transform($triples),
-      basex-rdf:pass-options($options)    
-    )
-  }</results> :)
-  basex-rdf:transform($triples)
+  graphs:fetch(xs:anyURI("/Users/tt434/Dropbox/basex-rdf/test/fixtures/pul2.ttl"))
+  => graphs:parse()
 )
   
     
