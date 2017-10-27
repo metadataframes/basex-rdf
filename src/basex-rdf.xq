@@ -203,14 +203,13 @@ let $options :=
   </options>
 let $x-triples := basex-rdf:transform($triples)
 return (
-  (: for $title in (
+  for $title in (
     basex-rdf:query(
       $x-triples,
       basex-rdf:pass-options($options)
     )//@xml:id
   )
-  return id($title, $x-triples)/.. :)
-  basex-rdf:transform($triples)
+  return id($title, $x-triples)/..
 )
   
     
