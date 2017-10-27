@@ -197,14 +197,15 @@ let $triples as xs:string :=
   ]``
 let $options :=
   <options>
-    <subject>http://id.loc.gov/authorities/names/n50034916</subject>
-    <verb></verb>
+    <subject></subject>
+    <verb>rdf:type</verb>
     <object></object>
   </options>
 return (
-  (: graphs:fetch(xs:anyURI("/home/tat2/Dropbox/basex-rdf/test/fixtures/pul2.ttl"))
-  => basex-rdf:transform() :)
-  basex-rdf:transform($triples)
+  basex-rdf:query(
+    basex-rdf:transform($triples),
+    basex-rdf:pass-options($options)
+  )    
 )
   
     

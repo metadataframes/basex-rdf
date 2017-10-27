@@ -26,58 +26,58 @@
     name="lang"/>
 
   <xsl:key
-    match="iriref"
+    match="i"
     name="prefix-key"
-    use="@prefix"/>
+    use="@p"/>
 
   <xsl:key
-    match="subject"
+    match="s"
     name="subject-verb-key"
-    use="following-sibling::predicate/verb"/>
+    use="following-sibling::p/p/v"/>
 
   <xsl:key
-    match="subject"
+    match="s"
     name="subject-object-key"
-    use="following-sibling::predicate/object | following-sibling::predicate/literal"/>
+    use="following-sibling::p/p/o union following-sibling::p/p/l"/>
 
   <xsl:key
-    match="object | literal"
+    match="o union l"
     name="object-subject-key"
-    use="../../subject"/>
+    use="../../../s"/>
 
   <xsl:key
-    match="object | literal"
+    match="o union l"
     name="object-verb-key"
-    use="../verb"/>
+    use="../v"/>
 
   <xsl:key
-    match="verb"
+    match="v"
     name="verb-subject-key"
-    use="../../subject"/>
+    use="../../s"/>
 
   <xsl:key
-    match="verb"
+    match="v"
     name="verb-object-key"
-    use="../object | ../literal"/>
+    use="../o union ../l"/>
 
   <xsl:key
-    match="object[subject]"
+    match="b[s]"
     name="bnode-type-key"
-    use="predicate/object"/>
+    use="p/p/o"/>
 
   <xsl:key
-    match="literal"
+    match="l"
     name="datatype-literal-key"
-    use="@datatype"/>
+    use="@d"/>
 
   <xsl:key
-    match="literal[@xml:lang]"
+    match="l[@xml:lang]"
     name="lang-literal-key"
     use="@xml:lang"/>
 
   <xsl:template
     match="/">
-    <results>
+    <result>
       <xsl:choose>
         <xsl:when
           test="normalize-space($verb[. ne 'true']) and normalize-space($object[. ne 'true']) and $subject eq 'true'">
@@ -197,7 +197,7 @@
               "/>
         </xsl:when>       
       </xsl:choose>
-    </results>
+    </result>
   </xsl:template>
 
   <xsl:function

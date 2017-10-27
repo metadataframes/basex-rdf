@@ -58,7 +58,7 @@
   </xsl:template>
 
   <xsl:template match="TOKEN[. eq '[']" mode="bnode">
-    <s/>
+    <s xml:id="{concat('_:', generate-id(.))}"/>
   </xsl:template>
 
   <xsl:template match="block">

@@ -78,7 +78,7 @@ declare function basex-rdf:query(
      then
        <result>{
          for tumbling window $w in $query/*/*/*
-           start $s when name($s) eq "verb"
+           start $s when name($s) eq "v"
          return
            <predicate>{$w}</predicate>
        }</result>
@@ -87,7 +87,7 @@ declare function basex-rdf:query(
        then
          <result>{
            for tumbling window $w in $query/*/*/*
-             start $s when name($s) eq "subject"
+             start $s when name($s) eq "s"
            return
              <subject-object>{$w}</subject-object>
          }</result>
@@ -96,7 +96,7 @@ declare function basex-rdf:query(
          then
            <result>{
              for tumbling window $w in $query/*/*/*
-               start $s when name($s) eq "subject"
+               start $s when name($s) eq "s"
              return
                <subject-verb>{$w}</subject-verb>
            }</result>
