@@ -11,8 +11,8 @@
   <xsl:key match="IRIREF" name="ns-key" use="../PNAME_NS"/>
 
   <xsl:template match="/">
-    <g xml:id="{generate-id(.)}">
-      <c xml:id="{generate-id(.)}">
+    <g xml:id="{generate-id(.) || position()}">
+      <c xml:id="{generate-id(trigDoc) || position()}">
         <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
       </c>
       <xsl:apply-templates select="trigDoc/block"/>
@@ -24,7 +24,8 @@
   </xsl:template>
 
   <xsl:template match="directive" mode="directive">
-    <i p="{substring-before(prefixID/PNAME_NS, ':')}" xml:id="{generate-id(.)}">
+    <i p="{substring-before(prefixID/PNAME_NS, ':')}"
+      xml:id="{generate-id(prefixID/IRIREF) || position()}">
       <xsl:apply-templates mode="directive"/>
     </i>
   </xsl:template>
@@ -35,7 +36,7 @@
       group-starting-with="descendant::*[1][self::TOKEN[. eq '[']]"
       select="$nodes//(collection union blankNodePropertyList)">
       <xsl:for-each select="current-group()">
-        <b xml:id="{concat('_:', generate-id(.))}">
+        <b xml:id="{concat('_:', generate-id(.) || position())}">
           <xsl:if test="ancestor::collection">
             <xsl:attribute name="n"
               select="count(../preceding-sibling::object) + 1"/>
@@ -49,21 +50,21 @@
   <xsl:template match="blankNodePropertyList"/>
 
   <xsl:template match="collection union blankNodePropertyList" mode="bnode">
-    <b r="{concat('_:', generate-id(.))}">
+    <b r="{concat('_:', generate-id(.) || position())}">
       <xsl:if test="ancestor::collection">
-        <xsl:attribute name="n"
-          select="count(../preceding-sibling::object) + 1"/>
+        <xsl:attribute name="n" select="count(../preceding-sibling::object) + 1"
+        />
       </xsl:if>
     </b>
   </xsl:template>
 
   <xsl:template match="TOKEN[. eq '[']" mode="bnode">
-    <s xml:id="{generate-id(.)}"/>
+    <s xml:id="{generate-id(.) || position()}"/>
   </xsl:template>
 
   <xsl:template match="block">
-    <t xml:id="{generate-id(.)}">
-      <s xml:id="{generate-id(.)}">
+    <t xml:id="{generate-id(.) || position()}">
+      <s xml:id="{generate-id(triplesOrGraph/labelOrSubject) || position()}">
         <xsl:apply-templates select="triplesOrGraph/labelOrSubject"/>
       </s>
       <xsl:apply-templates mode="bnode"
@@ -74,19 +75,20 @@
   <xsl:template match="predicateObjectList"/>
 
   <xsl:template match="predicateObjectList" mode="bnode">
-    <p xml:id="{generate-id(.)}">
+    <p xml:id="{generate-id(.) || position()}">
       <xsl:apply-templates mode="bnode" select="objectList"/>
     </p>
   </xsl:template>
 
   <xsl:template match="objectList/object" mode="bnode">
-    <p xml:id="{generate-id(.)}">
-      <v xml:id="{generate-id(.)}">
-        <xsl:apply-templates select="../preceding-sibling::*[1][self::verb]"/>
+    <xsl:variable name="v" select="../preceding-sibling::*[1][self::verb]"/>
+    <p xml:id="{generate-id(..) || position()}">
+      <v xml:id="{generate-id($v) || position()}">
+        <xsl:apply-templates select="$v"/>
       </v>
       <xsl:choose>
         <xsl:when test="literal">
-          <l xml:id="{generate-id(.)}">
+          <l xml:id="{generate-id(.) || position()}">
             <xsl:if test=".//LANGTAG">
               <xsl:attribute name="xml:lang"
                 select="substring-after(.//LANGTAG, '@')"/>
@@ -101,8 +103,7 @@
             </xsl:variable>
             <xsl:choose>
               <xsl:when test="literal/RDFLiteral[TOKEN = '^^']">
-                <xsl:variable name="type"
-                  select="data(literal/RDFLiteral/iri)"/>
+                <xsl:variable name="type" select="data(literal/RDFLiteral/iri)"/>
                 <xsl:attribute name="d"
                   select="
                     if (starts-with($type, '&lt;') and ends-with($type, '&gt;'))
@@ -143,7 +144,7 @@
           </l>
         </xsl:when>
         <xsl:otherwise>
-          <o xml:id="{generate-id(.)}">
+          <o xml:id="{generate-id(.) || position()}">
             <xsl:apply-templates mode="bnode"/>
           </o>
         </xsl:otherwise>

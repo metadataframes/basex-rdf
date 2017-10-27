@@ -199,13 +199,18 @@ let $options :=
   <options>
     <subject></subject>
     <verb>rdf:type</verb>
-    <object></object>
+    <object>http://id.loc.gov/ontologies/bibframe/Title</object>
   </options>
+let $x-triples := basex-rdf:transform($triples)
 return (
-  (: basex-rdf:query(
-    basex-rdf:transform($triples),
-    basex-rdf:pass-options($options)
-  ) :)basex-rdf:transform($triples)    
+  (: for $title in (
+    basex-rdf:query(
+      $x-triples,
+      basex-rdf:pass-options($options)
+    )//@xml:id
+  )
+  return id($title, $x-triples)/.. :)
+  basex-rdf:transform($triples)
 )
   
     
