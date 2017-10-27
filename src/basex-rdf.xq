@@ -198,18 +198,22 @@ let $triples as xs:string :=
 let $options :=
   <options>
     <subject></subject>
-    <verb>rdf:type</verb>
-    <object>http://id.loc.gov/ontologies/bibframe/Title</object>
+    <verb>bf:identifiedBy</verb>
+    <object></object>
   </options>
-let $x-triples := basex-rdf:transform($triples)
+
 return (
-  for $title in (
-    basex-rdf:query(
-      $x-triples,
-      basex-rdf:pass-options($options)
-    )//@xml:id
-  )
-  return id($title, $x-triples)/..
+  
+
+db:open("basex-rdf")  
+  
 )
+  
+  
+  
+  
+  
+  
+
   
     

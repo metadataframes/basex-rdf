@@ -11,7 +11,7 @@
   <xsl:key match="IRIREF" name="ns-key" use="../PNAME_NS"/>
 
   <xsl:template match="/">
-    <g xml:id="{generate-id(.) || position()}">
+    <g xml:id="{generate-id(.)}">
       <c xml:id="{generate-id(trigDoc) || position()}">
         <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
       </c>
@@ -36,7 +36,7 @@
       group-starting-with="descendant::*[1][self::TOKEN[. eq '[']]"
       select="$nodes//(collection union blankNodePropertyList)">
       <xsl:for-each select="current-group()">
-        <b xml:id="{concat('_:', generate-id(.) || position())}">
+        <b xml:id="{generate-id(.)}">
           <xsl:if test="ancestor::collection">
             <xsl:attribute name="n"
               select="count(../preceding-sibling::object) + 1"/>
@@ -50,7 +50,7 @@
   <xsl:template match="blankNodePropertyList"/>
 
   <xsl:template match="collection union blankNodePropertyList" mode="bnode">
-    <b r="{concat('_:', generate-id(.) || position())}">
+    <b r="{generate-id(.)}">
       <xsl:if test="ancestor::collection">
         <xsl:attribute name="n" select="count(../preceding-sibling::object) + 1"
         />
