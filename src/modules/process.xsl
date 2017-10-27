@@ -11,8 +11,8 @@
   <xsl:key match="IRIREF" name="ns-key" use="../PNAME_NS"/>
 
   <xsl:template match="/">
-    <g>
-      <c>
+    <g xml:id="{generate-id(.)}">
+      <c xml:id="{generate-id(.)}">
         <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
       </c>
       <xsl:apply-templates select="trigDoc/block"/>
@@ -24,7 +24,7 @@
   </xsl:template>
 
   <xsl:template match="directive" mode="directive">
-    <i p="{substring-before(prefixID/PNAME_NS, ':')}">
+    <i p="{substring-before(prefixID/PNAME_NS, ':')}" xml:id="{generate-id(.)}">
       <xsl:apply-templates mode="directive"/>
     </i>
   </xsl:template>
@@ -58,12 +58,12 @@
   </xsl:template>
 
   <xsl:template match="TOKEN[. eq '[']" mode="bnode">
-    <s xml:id="{concat('_:', generate-id(.))}"/>
+    <s xml:id="{generate-id(.)}"/>
   </xsl:template>
 
   <xsl:template match="block">
-    <t>
-      <s>
+    <t xml:id="{generate-id(.)}">
+      <s xml:id="{generate-id(.)}">
         <xsl:apply-templates select="triplesOrGraph/labelOrSubject"/>
       </s>
       <xsl:apply-templates mode="bnode"
@@ -74,19 +74,19 @@
   <xsl:template match="predicateObjectList"/>
 
   <xsl:template match="predicateObjectList" mode="bnode">
-    <p>
+    <p xml:id="{generate-id(.)}">
       <xsl:apply-templates mode="bnode" select="objectList"/>
     </p>
   </xsl:template>
 
   <xsl:template match="objectList/object" mode="bnode">
-    <p>
-      <v>
+    <p xml:id="{generate-id(.)}">
+      <v xml:id="{generate-id(.)}">
         <xsl:apply-templates select="../preceding-sibling::*[1][self::verb]"/>
       </v>
       <xsl:choose>
         <xsl:when test="literal">
-          <l>
+          <l xml:id="{generate-id(.)}">
             <xsl:if test=".//LANGTAG">
               <xsl:attribute name="xml:lang"
                 select="substring-after(.//LANGTAG, '@')"/>
@@ -143,7 +143,7 @@
           </l>
         </xsl:when>
         <xsl:otherwise>
-          <o>
+          <o xml:id="{generate-id(.)}">
             <xsl:apply-templates mode="bnode"/>
           </o>
         </xsl:otherwise>
