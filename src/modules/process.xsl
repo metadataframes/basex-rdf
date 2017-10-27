@@ -20,28 +20,28 @@
 
   <xsl:template
     match="/">
-    <graph>
-      <context>
+    <g>
+      <c>
         <xsl:apply-templates
           mode="directive"
           select="trigDoc/directive"/>
-      </context>
+      </c>
       <xsl:apply-templates
         select="trigDoc/block"/>
       <xsl:sequence
         select="
           basex-rdf:group-bnodes(trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object)"/>
-    </graph>
+    </g>
   </xsl:template>
   
   <xsl:template
     match="directive"
     mode="directive">
-    <iri
-      prefix="{substring-before(prefixID/PNAME_NS, ':')}">
+    <i
+      p="{substring-before(prefixID/PNAME_NS, ':')}">
       <xsl:apply-templates
         mode="directive"/>
-    </iri>
+    </i>
   </xsl:template>
 
   <xsl:function
@@ -55,7 +55,7 @@
       select="$nodes//(collection union blankNodePropertyList)">
       <xsl:for-each
         select="current-group()">
-        <bn
+        <b
           xml:id="{concat('_:', generate-id(.))}">          
           <xsl:if
             test="ancestor::collection">
@@ -65,7 +65,7 @@
           </xsl:if>
           <xsl:apply-templates
             mode="bnode"/>
-        </bn>
+        </b>
       </xsl:for-each>
     </xsl:for-each-group>
   </xsl:function>
@@ -76,15 +76,15 @@
   <xsl:template
     match="collection union blankNodePropertyList"
     mode="bnode">
-    <bn
-      ref="{concat('_:', generate-id(.))}">
+    <b
+      r="{concat('_:', generate-id(.))}">
       <xsl:if
         test="ancestor::collection">
         <xsl:attribute
           name="n"
           select="count(../preceding-sibling::object) + 1"/>
       </xsl:if>
-    </bn>
+    </b>
   </xsl:template>
 
   <xsl:template
@@ -95,7 +95,7 @@
 
   <xsl:template
     match="block">
-    <topic>
+    <t>
       <s>
         <xsl:apply-templates
           select="triplesOrGraph/labelOrSubject"/>
@@ -103,7 +103,7 @@
       <xsl:apply-templates
         mode="bnode"
         select="triplesOrGraph/predicateObjectList"/>
-    </topic>
+    </t>
   </xsl:template>
 
   <xsl:template
@@ -112,11 +112,11 @@
   <xsl:template
     match="predicateObjectList"
     mode="bnode">
-    <predicates>
+    <p>
       <xsl:apply-templates
         mode="bnode"
         select="objectList"/>
-    </predicates>
+    </p>
   </xsl:template>
 
   <xsl:template
@@ -127,12 +127,7 @@
         <xsl:value-of
           select="basex-rdf:type(../preceding-sibling::*[1][self::verb])"/>
       </v>
-      <o>
-        <xsl:if
-          test=".//ancestor::collection">
-          <xsl:attribute
-            name="parse-type">collection</xsl:attribute>
-        </xsl:if>
+      <o>        
         <xsl:apply-templates
           mode="bnode"/>
       </o>
