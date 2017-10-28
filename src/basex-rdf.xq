@@ -198,14 +198,14 @@ let $triples as xs:string :=
 let $options :=
   <options>
     <subject></subject>
-    <verb>bf:identifiedBy</verb>
+    <verb>bf:title</verb>
     <object></object>
   </options>
-
+let $x-triples := db:open("basex-rdf")
 return (
-  
 
-db:open("basex-rdf")  
+graphs:fetch(xs:anyURI("http://experiment.worldcat.org/oclc/81011946.ttl"))
+=> graphs:parse()
   
 )
   

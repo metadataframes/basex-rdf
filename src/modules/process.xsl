@@ -12,9 +12,11 @@
 
   <xsl:template match="/">
     <g xml:id="{generate-id(.)}">
-      <c xml:id="{generate-id(trigDoc) || position()}">
-        <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
-      </c>
+      <xsl:if test="trigDoc/directive">
+        <c xml:id="{generate-id(trigDoc) || position()}">
+          <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
+        </c>
+      </xsl:if>
       <xsl:apply-templates select="trigDoc/block"/>
       <xsl:sequence
         select="
@@ -52,8 +54,8 @@
   <xsl:template match="collection union blankNodePropertyList" mode="bnode">
     <b r="{generate-id(.)}">
       <xsl:if test="ancestor::collection">
-        <xsl:attribute name="n" select="count(../preceding-sibling::object) + 1"
-        />
+        <xsl:attribute name="n"
+          select="count(../preceding-sibling::object) + 1"/>
       </xsl:if>
     </b>
   </xsl:template>
@@ -75,9 +77,16 @@
   <xsl:template match="predicateObjectList"/>
 
   <xsl:template match="predicateObjectList" mode="bnode">
-    <p xml:id="{generate-id(.) || position()}">
-      <xsl:apply-templates mode="bnode" select="objectList"/>
-    </p>
+    <xsl:choose>
+      <xsl:when test="count(descendant::objectList) gt 1">
+        <p xml:id="{generate-id(.) || position()}">
+          <xsl:apply-templates mode="bnode" select="objectList"/>
+        </p>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates mode="bnode" select="objectList"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="objectList/object" mode="bnode">
@@ -103,7 +112,8 @@
             </xsl:variable>
             <xsl:choose>
               <xsl:when test="literal/RDFLiteral[TOKEN = '^^']">
-                <xsl:variable name="type" select="data(literal/RDFLiteral/iri)"/>
+                <xsl:variable name="type"
+                  select="data(literal/RDFLiteral/iri)"/>
                 <xsl:attribute name="d"
                   select="
                     if (starts-with($type, '&lt;') and ends-with($type, '&gt;'))
