@@ -77,7 +77,7 @@
         select="wrappedGraph//triplesBlock/triples">
         <t>
           <s
-            xml:id="{generate-id(triplesGraph/triples/subject) || position()}">
+            xml:id="{generate-id(subject) || position()}">
             <xsl:apply-templates/>
           </s>
           <xsl:choose>
