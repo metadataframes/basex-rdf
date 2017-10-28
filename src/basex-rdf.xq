@@ -206,9 +206,9 @@ return (
 
 (: basex-rdf:query($x-triples, basex-rdf:pass-options($options)) :)
 
-graphs:fetch(xs:anyURI("http://experiment.worldcat.org/oclc/81011946.nt"))
-=> graphs:parse()
+graphs:fetch(xs:anyURI("/home/tat2/Dropbox/basex-rdf/test/fixtures/trig-example.trig"))
 => basex-rdf:transform()
+
   
 )
   
