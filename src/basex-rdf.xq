@@ -198,18 +198,21 @@ let $triples as xs:string :=
 let $options :=
   <options>
     <subject></subject>
-    <verb>bf:title</verb>
+    <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
     <object></object>
   </options>
 let $x-triples := db:open("basex-rdf")
 return (
 
-graphs:fetch(xs:anyURI("http://experiment.worldcat.org/oclc/81011946.ttl"))
+(: basex-rdf:query($x-triples, basex-rdf:pass-options($options)) :)
+
+graphs:fetch(xs:anyURI("http://experiment.worldcat.org/oclc/81011946.nt"))
 => graphs:parse()
+=> basex-rdf:transform()
   
 )
   
-  
+
   
   
   

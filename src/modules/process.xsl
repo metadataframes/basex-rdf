@@ -17,11 +17,42 @@
           <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
         </c>
       </xsl:if>
-      <xsl:apply-templates select="trigDoc/block"/>
-      <xsl:sequence
-        select="
-          basex-rdf:group-bnodes(trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object)"
-      />
+      <xsl:choose>
+        <xsl:when
+          test="trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object/blankNodePropertyList">
+          <xsl:apply-templates mode="ttl" select="trigDoc/block"/>
+          <xsl:sequence
+            select="
+              basex-rdf:group-bnodes(trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object)"
+          />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:for-each-group group-by="string(labelOrSubject)"
+            select="trigDoc/block/triplesOrGraph">
+            <t>
+              <s xml:id="{generate-id(labelOrSubject) || position()}">
+                <xsl:apply-templates select="labelOrSubject"/>
+              </s>
+              <xsl:choose>
+                <xsl:when test="count(current-group()//objectList) gt 1">
+                  <p xml:id="{generate-id(.) || position()}">
+                    <xsl:for-each select="current-group()">
+                      <xsl:apply-templates mode="bnode"
+                        select="predicateObjectList"/>
+                    </xsl:for-each>
+                  </p>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:for-each select="current-group()">
+                    <xsl:apply-templates mode="bnode"
+                      select="predicateObjectList"/>
+                  </xsl:for-each>
+                </xsl:otherwise>
+              </xsl:choose>
+            </t>
+          </xsl:for-each-group>
+        </xsl:otherwise>
+      </xsl:choose>
     </g>
   </xsl:template>
 
@@ -64,7 +95,7 @@
     <s xml:id="{generate-id(.) || position()}"/>
   </xsl:template>
 
-  <xsl:template match="block">
+  <xsl:template match="block" mode="ttl">
     <t xml:id="{generate-id(.) || position()}">
       <s xml:id="{generate-id(triplesOrGraph/labelOrSubject) || position()}">
         <xsl:apply-templates select="triplesOrGraph/labelOrSubject"/>
@@ -89,77 +120,85 @@
     </xsl:choose>
   </xsl:template>
 
+
+
   <xsl:template match="objectList/object" mode="bnode">
     <xsl:variable name="v" select="../preceding-sibling::*[1][self::verb]"/>
     <p xml:id="{generate-id(..) || position()}">
       <v xml:id="{generate-id($v) || position()}">
         <xsl:apply-templates select="$v"/>
       </v>
-      <xsl:choose>
-        <xsl:when test="literal">
-          <l xml:id="{generate-id(.) || position()}">
-            <xsl:if test=".//LANGTAG">
-              <xsl:attribute name="xml:lang"
-                select="substring-after(.//LANGTAG, '@')"/>
-            </xsl:if>
-            <xsl:variable name="val">
-              <xsl:analyze-string regex="(&apos;|&quot;)(.*?)\1"
-                select="normalize-space(.)">
-                <xsl:matching-substring>
-                  <xsl:value-of select="normalize-space(regex-group(2))"/>
-                </xsl:matching-substring>
-              </xsl:analyze-string>
-            </xsl:variable>
-            <xsl:choose>
-              <xsl:when test="literal/RDFLiteral[TOKEN = '^^']">
-                <xsl:variable name="type"
-                  select="data(literal/RDFLiteral/iri)"/>
-                <xsl:attribute name="d"
-                  select="
-                    if (starts-with($type, '&lt;') and ends-with($type, '&gt;'))
-                    then
-                      substring-before(substring-after($type, '&lt;'), '&gt;')
-                    else
-                      (
-                      if (contains($type, 'xsd:'))
-                      then
-                        'xs:' || substring-after($type, ':')
-                      else
-                        $type
-                      )
-                    "/>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-              <xsl:when test="$val castable as xs:date">
-                <xsl:attribute name="d">xs:date</xsl:attribute>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-              <xsl:when test="$val castable as xs:dateTime">
-                <xsl:attribute name="d">xs:dateTime</xsl:attribute>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-              <xsl:when test="$val castable as xs:integer">
-                <xsl:attribute name="d">xs:integer</xsl:attribute>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-              <xsl:when test="$val castable as xs:double">
-                <xsl:attribute name="d">xs:double</xsl:attribute>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-              <xsl:when test="$val castable as xs:string">
-                <xsl:attribute name="d">xs:string</xsl:attribute>
-                <xsl:value-of select="$val"/>
-              </xsl:when>
-            </xsl:choose>
-          </l>
-        </xsl:when>
-        <xsl:otherwise>
-          <o xml:id="{generate-id(.) || position()}">
-            <xsl:apply-templates mode="bnode"/>
-          </o>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="process-objects">
+        <xsl:with-param as="node()" name="o" select="."/>
+      </xsl:call-template>
     </p>
+  </xsl:template>
+
+  <xsl:template name="process-objects">
+    <xsl:param as="node()" name="o"/>
+    <xsl:choose>
+      <xsl:when test="$o/literal">
+        <l xml:id="{generate-id($o) || position()}">
+          <xsl:if test="$o//LANGTAG">
+            <xsl:attribute name="xml:lang"
+              select="substring-after($o//LANGTAG, '@')"/>
+          </xsl:if>
+          <xsl:variable name="val">
+            <xsl:analyze-string regex="(&apos;|&quot;)(.*?)\1"
+              select="normalize-space($o)">
+              <xsl:matching-substring>
+                <xsl:value-of select="normalize-space(regex-group(2))"/>
+              </xsl:matching-substring>
+            </xsl:analyze-string>
+          </xsl:variable>
+          <xsl:choose>
+            <xsl:when test="literal/RDFLiteral[TOKEN = '^^']">
+              <xsl:variable name="type" select="data(literal/RDFLiteral/iri)"/>
+              <xsl:attribute name="d"
+                select="
+                  if (starts-with($type, '&lt;') and ends-with($type, '&gt;'))
+                  then
+                    substring-before(substring-after($type, '&lt;'), '&gt;')
+                  else
+                    (
+                    if (contains($type, 'xsd:'))
+                    then
+                      'xs:' || substring-after($type, ':')
+                    else
+                      $type
+                    )
+                  "/>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+            <xsl:when test="$val castable as xs:date">
+              <xsl:attribute name="d">xs:date</xsl:attribute>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+            <xsl:when test="$val castable as xs:dateTime">
+              <xsl:attribute name="d">xs:dateTime</xsl:attribute>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+            <xsl:when test="$val castable as xs:integer">
+              <xsl:attribute name="d">xs:integer</xsl:attribute>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+            <xsl:when test="$val castable as xs:double">
+              <xsl:attribute name="d">xs:double</xsl:attribute>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+            <xsl:when test="$val castable as xs:string">
+              <xsl:attribute name="d">xs:string</xsl:attribute>
+              <xsl:value-of select="$val"/>
+            </xsl:when>
+          </xsl:choose>
+        </l>
+      </xsl:when>
+      <xsl:otherwise>
+        <o xml:id="{generate-id($o) || position()}">
+          <xsl:apply-templates mode="bnode"/>
+        </o>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="prefixID"/>
