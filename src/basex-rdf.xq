@@ -201,7 +201,6 @@ let $options :=
     <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
     <object></object>
   </options>
-let $x-triples := db:open("basex-rdf")
 return (
 
   graphs:fetch(xs:anyURI("https://raw.githubusercontent.com/ruby-rdf/rdf-trig/develop/examples/example-1.trig"))
