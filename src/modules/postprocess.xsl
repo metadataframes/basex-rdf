@@ -11,11 +11,11 @@
     method="xml"/>
 
   <xsl:param
-    name="subject"/>
+    name="subject"></xsl:param>
   <xsl:param
-    name="verb"/>
+    name="verb"></xsl:param>
   <xsl:param
-    name="object"/>
+    name="object"></xsl:param>
   <xsl:param
     name="type"/>
   <xsl:param
@@ -38,7 +38,7 @@
   <xsl:key
     match="s"
     name="subject-object-key"
-    use="following-sibling::p/p/o union following-sibling::p/p/l"/>
+    use="following-sibling::*//p/o union following-sibling::*//p/l"/>
 
   <xsl:key
     match="o union l"
@@ -129,14 +129,13 @@
           <xsl:variable
             name="verb"
             select="basex-rdf:resolve-prefix($verb, *)"/>
-          <xsl:sequence
-            select="
-              basex-rdf:subject-objects(
-              for $s-o in (key('subject-verb-key', $verb) union key('object-verb-key', $verb))
-              return
-                $s-o
-              )
-              "/>
+            <subject-objects>
+              <xsl:sequence select="(
+                for $s-o in (key('subject-verb-key', $verb) union key('object-verb-key', $verb))
+                return
+                  $s-o
+              )"/>
+            </subject-objects>          
         </xsl:when>
         <xsl:when
           test="normalize-space($object[. ne 'true']) and $subject eq 'true' and $verb eq 'true'">

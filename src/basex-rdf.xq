@@ -204,12 +204,9 @@ let $options :=
 let $x-triples := db:open("basex-rdf")
 return (
 
-basex-rdf:query($x-triples, basex-rdf:pass-options($options))
+  graphs:fetch(xs:anyURI("https://raw.githubusercontent.com/ruby-rdf/rdf-trig/develop/examples/example-1.trig"))
+  => basex-rdf:transform()
 
-(: graphs:fetch(xs:anyURI("/home/tat2/Dropbox/basex-rdf/test/fixtures/trig-example.trig"))
-=> basex-rdf:transform() :)
-
-  
 )
   
 

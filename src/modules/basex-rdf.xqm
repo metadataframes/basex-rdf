@@ -11,14 +11,10 @@ declare variable $basex-rdf:XSL2 := doc("postprocess.xsl");
 (:~ 
  :
  :)
-declare
-  %updating
-function basex-rdf:transform(
+declare function basex-rdf:transform(
   $rdf as xs:string
-) {
-  insert node 
-    xslt:transform(graphs:parse($rdf), $basex-rdf:XSL)  
-  as last into db:open("basex-rdf")/*
+) {  
+  xslt:transform(graphs:parse($rdf), $basex-rdf:XSL)    
 };
 
 (:~ 
