@@ -50,14 +50,17 @@ let $options :=
     <verb>rdf:type</verb>
     <object></object>
   </options>
-let $x-triples := db:open("docs")
+
 return (       
  
   (: db:create("rdf", ($x-triples
     => graphs:parse()), "rdf") :)  
   db:create(
-    "basex-rdf2", 
-    basex-rdf:transform($x-triples),
+    "basex-rdf2",      
+    <rdf>{
+    (xslt:transform(db:open("docs")/rdf, doc("/home/tat2/Dropbox (tat2db)/basex-rdf/src/modules/process.xsl")))
+    }</rdf>   
+    ,
     "basex-rdf2"
   )
   (: basex-rdf:query(basex-rdf:pass-options($options) :)
