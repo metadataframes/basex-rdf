@@ -50,20 +50,12 @@ let $options :=
     <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
     <object></object>
   </options>
-return (
 
-  (graphs:parse($triples)
-  => basex-rdf:transform())
-  => basex-rdf:query(basex-rdf:pass-options($options))
-  
+return (       
+ 
+  basex-rdf:query(
+    basex-rdf:transform($triples), 
+    basex-rdf:pass-options($options)
+  )
 
 )
-  
-
-  
-  
-  
-  
-
-  
-    
