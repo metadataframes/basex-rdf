@@ -12,7 +12,7 @@
 
   <xsl:template match="/">
     <g xml:id="{generate-id(.)}">
-      <xsl:apply-templates select="trigDoc"/>
+      <xsl:apply-templates select=".//trigDoc"/>
     </g>
   </xsl:template>
 

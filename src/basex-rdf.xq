@@ -47,15 +47,54 @@ let $triples as xs:string :=
 let $options :=
   <options>
     <subject></subject>
-    <verb>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</verb>
+    <verb>rdf:type</verb>
     <object></object>
   </options>
-let $x-triples := db:open("basex-rdf")
-return (
-
-  (graphs:parse($triples)
-  => basex-rdf:transform())
-  => basex-rdf:query(basex-rdf:pass-options($options))
+let $x-triples := db:open("docs")
+return (       
+ 
+  (: db:create("rdf", ($x-triples
+    => graphs:parse()), "rdf") :)  
+  db:create(
+    "basex-rdf2", 
+    basex-rdf:transform($x-triples),
+    "basex-rdf2"
+  )
+  (: basex-rdf:query(basex-rdf:pass-options($options) :)
+  
+  (: file:write("/home/tat2/Dropbox/basex-rdf/test/fixtures/docs.raw",
+  <rdf>{
+  for $line in $x-triples/*/*
+  return
+    try {
+      graphs:parse($line)
+    } catch * {
+       <error
+        xmlns="https://metadatafram.es/metaquery/mq/">
+        {
+          "Error ["
+          || $err:code
+          || "]: "
+          || $err:line-number
+          || "&#10;"
+          || $err:additional
+          || "&#10;"
+          || $err:description
+        }
+      </error>
+    }
+    }</rdf>) :)
+     
+    (: file:write("/home/tat2/Dropbox/SHARE-VDE_yale/Phase2/Released_datasets/SAMPLE_YaleSubset/types.xml",
+    <types>{
+      let $types := db:text("basex-rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#type")/../..
+      for $type in $types//o
+      return (
+        <subject-object>{
+          $type/ancestor::t/s, $type  
+        }</subject-object>
+      )
+    }</types>) :)
   
 
 )
