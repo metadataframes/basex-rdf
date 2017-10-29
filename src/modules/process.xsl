@@ -12,53 +12,60 @@
 
   <xsl:template match="/">
     <g xml:id="{generate-id(.)}">
-      <xsl:apply-templates mode="comments"
-        select="trigDoc//text()[preceding-sibling::* or following-sibling::*]"/>
-      <xsl:if test="trigDoc/directive">
-        <c xml:id="{generate-id(trigDoc) || position()}">
-          <xsl:apply-templates mode="directive" select="trigDoc/directive"/>
-        </c>
-      </xsl:if>
-      <xsl:choose>
-        <xsl:when test="trigDoc/block/triplesOrGraph/wrappedGraph">
-          <xsl:apply-templates mode="trig" select="trigDoc/block"/>
-        </xsl:when>
-        <xsl:when
-          test="trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object/blankNodePropertyList">
-          <xsl:apply-templates mode="ttl" select="trigDoc/block"/>
-          <xsl:sequence
-            select="
-              basex-rdf:group-bnodes(trigDoc/block/triplesOrGraph/predicateObjectList/objectList/object)"
-          />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:for-each-group group-by="string(labelOrSubject)"
-            select="trigDoc/block/triplesOrGraph">
-            <t>
-              <s xml:id="{generate-id(labelOrSubject) || position()}">
-                <xsl:apply-templates select="labelOrSubject"/>
-              </s>
-              <xsl:choose>
-                <xsl:when test="count(current-group()//objectList) gt 1">
-                  <p xml:id="{generate-id(.) || position()}">
-                    <xsl:for-each select="current-group()">
-                      <xsl:apply-templates mode="bnode"
-                        select="predicateObjectList"/>
-                    </xsl:for-each>
-                  </p>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:for-each select="current-group()">
-                    <xsl:apply-templates mode="bnode"
-                      select="predicateObjectList"/>
-                  </xsl:for-each>
-                </xsl:otherwise>
-              </xsl:choose>
-            </t>
-          </xsl:for-each-group>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:apply-templates select="trigDoc"/>
     </g>
+  </xsl:template>
+
+  <xsl:template match="trigDoc">
+    <xsl:if test="directive">
+      <c xml:id="{generate-id(.) || position()}">
+        <xsl:apply-templates mode="directive" select="directive"/>
+      </c>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="block">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="triplesOrGraph">
+    <xsl:choose>
+      <xsl:when test="wrappedGraph">
+        <xsl:apply-templates mode="trig" select="../../block"/>
+      </xsl:when>
+      <xsl:when
+        test="predicateObjectList/objectList/object/blankNodePropertyList">
+        <xsl:apply-templates mode="ttl" select="block"/>
+        <xsl:sequence
+          select="
+            basex-rdf:group-bnodes(predicateObjectList/objectList/object)"
+        />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:for-each-group group-by="string(labelOrSubject)" select=".">
+          <t>
+            <s xml:id="{generate-id(labelOrSubject) || position()}">
+              <xsl:apply-templates select="labelOrSubject"/>
+            </s>
+            <xsl:choose>
+              <xsl:when test="count(current-group()//objectList) gt 1">
+                <xsl:for-each select="current-group()">
+                  <xsl:apply-templates mode="bnode"
+                    select="predicateObjectList"/>
+                </xsl:for-each>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:for-each select="current-group()">
+                  <xsl:apply-templates mode="bnode"
+                    select="predicateObjectList"/>
+                </xsl:for-each>
+              </xsl:otherwise>
+            </xsl:choose>
+          </t>
+        </xsl:for-each-group>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="directive" mode="directive">
@@ -76,8 +83,7 @@
       <xsl:for-each-group group-by="subject"
         select="wrappedGraph//triplesBlock/triples">
         <t>
-          <s
-            xml:id="{generate-id(subject) || position()}">
+          <s xml:id="{generate-id(subject) || position()}">
             <xsl:apply-templates/>
           </s>
           <xsl:choose>
@@ -98,6 +104,7 @@
           </xsl:choose>
         </t>
       </xsl:for-each-group>
+
     </g>
   </xsl:template>
 
@@ -105,8 +112,6 @@
     mode="trig">
     <xsl:value-of select="."/>
   </xsl:template>
-
-
 
   <xsl:function as="node()*" name="basex-rdf:group-bnodes">
     <xsl:param as="node()*" name="nodes"/>
@@ -150,22 +155,20 @@
     </t>
   </xsl:template>
 
-  <xsl:template match="predicateObjectList"/>
+  <xsl:template match="predicateObjectList"/>     
 
   <xsl:template match="predicateObjectList" mode="bnode">
     <xsl:choose>
       <xsl:when test="count(descendant::objectList) gt 1">
         <p xml:id="{generate-id(.) || position()}">
-          <xsl:apply-templates mode="bnode" select="objectList"/>
+          <xsl:apply-templates mode="bnode" select="text() union objectList"/>
         </p>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates mode="bnode" select="objectList"/>
+        <xsl:apply-templates mode="bnode" select="text() union objectList"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
-
 
   <xsl:template match="objectList/object" mode="bnode">
     <xsl:variable name="v" select="../preceding-sibling::*[1][self::verb]"/>
@@ -287,12 +290,12 @@
 
   <xsl:template match="TOKEN[. ne 'a' and . ne '[']" mode="#all"/>
 
-  <xsl:template match="text()[preceding-sibling::* or following-sibling::*]"
-    mode="comments">
-    <xsl:analyze-string regex="(#.*?\n)" select=".">
+  <xsl:template match="text()[following-sibling::* or preceding-sibling::*]"
+    mode="#all">
+    <xsl:analyze-string regex="(#.*)" select="normalize-space(.)">
       <xsl:matching-substring>
         <xsl:comment>
-            <xsl:sequence select="normalize-space(regex-group(1))"/>
+            <xsl:apply-templates select="normalize-space(regex-group(1))"/>
         </xsl:comment>
       </xsl:matching-substring>
     </xsl:analyze-string>
