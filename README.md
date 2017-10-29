@@ -90,7 +90,7 @@ can be used to list all subject-object pairs linked by the `rdf:type` predicate.
 
 ## TODO
 * Incorporate test suite using [XSpec](https://github.com/xspec/xspec/)
-* Back-conversion from internal XML representation to Turtle, etc.
+* Back-convert from internal XML representation to Turtle, etc.
 * Map internal XML representations to JSON-LD
 * Implement internal transformation as XQuery rather than XSLT
 * Add further examples, etc. 
